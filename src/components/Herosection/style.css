@@ -1,0 +1,31 @@
+.heading{
+    text-align: center;
+    color: #fff;
+    font-size: 54px;
+}
+.heading span{
+    
+    color:#F9116C ;
+}
+
+.hero-wrapper p{
+    max-width: 1020px;
+color: #FFF;
+text-align: justify;
+font-family: RobotoMono-regular;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 3.15px !important;
+margin: 0 auto;
+}
+.left-box,.right-box{
+    width: 500.971px;
+height: 582.276px;
+position: relative;
+}
+
+.right-box{
+    margin-left: 0px;
+}
