@@ -1,9 +1,8 @@
 import './App.css';
-
 import Header from './components/Header';
 import PrimaryBtn from './components/Primarybutton';
 import Herosection from './components/Herosection';
-
+import Cta from './components/Cta-components'
 // Importing images
 import img1 from './assets/images/646cda7f7639d2f9f439447d_222-p-500 1.png';
 import img2 from './assets/images/demex_wordmark_primary_white_no_bg 1.png';
@@ -26,13 +25,13 @@ function App() {
       <Header />
       <Herosection />
       <div className='btn-wrapper'>
-        <PrimaryBtn />
+        <PrimaryBtn text="Book Consultation"/>
       </div>
+      <h1 className='text-center py-5  pb-4 heading-h1'>Trusted by Partners</h1>
+      <div className='logo-section pb-5'>
       <div className='container-fluid'>
-      <h1 className='text-center py-5 '>Trusted Partner</h1>
+     
       <div className='text-icon'>
-
-      
         <ImageTextSection imageSrc={img10}  />
         <ImageTextSection imageSrc={img8}  />
         <ImageTextSection imageSrc={img7}  />
@@ -49,7 +48,8 @@ function App() {
 
       </div>
       </div>
-     
+      </div>
+      <Cta/>
     </>
   );
 }

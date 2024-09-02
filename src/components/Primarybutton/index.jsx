@@ -4,13 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
 
-const PrimaryBtn = () => {
+const PrimaryBtn = ({text}) => {
   return (
     <>
       <Button 
         style={{ backgroundColor: '#000', color: 'white' }} 
       >
-        Book Consultation
+        {text}
         <span>
             {/* <FontAwesomeIcon icon={faArrowRight} /> */}
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="21" viewBox="0 0 28 21" fill="none">
