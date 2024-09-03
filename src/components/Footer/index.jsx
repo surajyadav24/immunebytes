@@ -44,14 +44,16 @@ const Footer = () => {
       <div className="footer-section">
         <h3>Subscribe</h3>
         <form>
+            <label htmlFor="first&lastname">First & Last Name</label>
           <input type="text" placeholder="First & Last Name" />
+          <label htmlFor="email">E-mail</label>
           <input type="email" placeholder="Email Address" />
           <button type="submit">Submit</button>
         </form>
       </div>
 
       <div className="footer-bottom">
-        <p>©2023 ImmuneBytes. All Rights Reserved</p>
+        <p>©2024 ImmuneBytes. All Rights Reserved</p>
         <div className="footer-links">
           <a href="#">Terms of Service</a>
           <a href="#">Privacy Policy</a>
