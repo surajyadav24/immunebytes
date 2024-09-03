@@ -1,0 +1,75 @@
+.clients{
+    padding: 40px 50px;
+    background: url(../../assets/images/whychoose/bg-clients.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    min-height: 400px;
+}
+.clients h2{
+    padding-top: 36px;
+    text-align: justify;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4F4F4F;
+font-family: "RobotoMono-Bold";
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.clients:hover{
+    padding: 40px 50px;
+    background: url(../../assets/images/whychoose/base-bg.svg);
+    background-size: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    min-height: 400px;
+}
+.clients:hover h2 , .clients-5:hover h2{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-color: #fff;
+}
+.clients h2 span{
+    padding-left: 50px;
+}
+.clients-5 h2{
+    padding-top: 36px;
+    text-align: justify;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4F4F4F;
+font-family: "RobotoMono-Bold";
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.clients-5{
+    padding: 40px 50px;
+    background: url(../../assets/images/whychoose/client500k.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+}
+.clients-5:hover{
+    padding: 40px 50px;
+    background: url(../../assets/images/whychoose/bg-5kbase.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+}
+.clients-5 h2  span{
+    font-size: 60px;
+}

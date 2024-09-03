@@ -1,0 +1,76 @@
+/* src/components/CaseStudyCard.css */
+
+.case-study-card {
+  background-color: #1c1c1e;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  padding: 20px;
+  max-width: 480px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 300px;
+}
+  .card-content {
+    max-width: 60%;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  
+  .card-button {
+    padding: 10px 20px;
+border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .card-button:hover {
+
+    color: white;
+  }
+  
+  .card-image img {
+    max-width: 100px;
+    border-radius: 5px;
+  }
+  
+.card-bg-1 
+.case-study-card{
+  background: url('../../assets/images/cards/card-bg-1.svg' )no-repeat center center / contain;
+}
+.card-bg-2 
+.case-study-card{
+  background: url('../../assets/images/cards/card-bg-2.svg' )no-repeat center center / contain;
+}
+.card-bg-3 
+.case-study-card{
+  background: url('../../assets/images/cards/card-bg-3.svg' )no-repeat center center / contain;
+}
+.card-bg-4 
+.case-study-card{
+  background: url('../../assets/images/cards/card-bg-1.svg' )no-repeat center center / contain;
+}
+.card-bg-1 button{
+  background: url('../../assets/images/btn-bg2.svg' )no-repeat center center / contain;
+}
+.card-bg-2 button{
+  background: url('../../assets/images/btn-3bg.svg' )no-repeat center center / contain;
+}
+.card-bg-3 button{
+  background: url('../../assets/images/btn-4bg.svg' )no-repeat center center / contain;
+}
+.card-bg-4 button{
+  background: url('../../assets/images/btn-1bg.svg' )no-repeat center center / contain;
+}
