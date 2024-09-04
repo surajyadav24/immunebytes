@@ -1,0 +1,33 @@
+
+/* src/style.css */
+
+.splide {
+    padding: 20px 0;
+
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+    max-width: 120px; /* Adjust based on your logo size */
+    transition: transform 0.3s ease-in-out;
+}
+
+.splide__slide:hover img {
+    transform: scale(1.1);
+}
+.splide__slide{
+    padding: 20px 0px;
+    margin: 10px;
+    background-color: #D9D9D91A;
+    border-radius: 20px;
+    max-width: 190px ;
+    text-align: center;
+}
+
+ul.splide__pagination.splide__pagination--ltr {
+    display: none;
+}
+.splide__slide:hover{
+    box-shadow: 5px 5px 8px #ffffff83;
+}

@@ -53,7 +53,7 @@ const TestimonialSlider = () => {
         grabCursor={true}
         loop={true}  // Enable looping
         autoplay={{ // Enable autoplay
-          delay: 500000, // Time between slides in milliseconds
+          delay: 5000, // Time between slides in milliseconds
           disableOnInteraction: false, // Continue autoplay even after user interactions
         }}
         modules={[Navigation, Pagination, Autoplay]} // Include Autoplay module

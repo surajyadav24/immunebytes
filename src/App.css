@@ -69,3 +69,9 @@ p{
 .heading-h1{
 color:#F9116C;
 }
+button.splide__arrow.splide__arrow--prev {
+  display: none;
+}
+button.splide__arrow.splide__arrow--next {
+  display: none;
+}

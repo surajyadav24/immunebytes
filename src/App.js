@@ -6,6 +6,7 @@ import Cta from "./components/Cta-components";
 import Whychooseus from "./components/Whychooseus";
 import Servicescomponent from "./components/Servicescomponent";
 import TestimonialSlider from "./components/Testimonial slider";
+import LogoSlider from "./components/Logo-Slider";
 // Importing images
 import img1 from "./assets/images/646cda7f7639d2f9f439447d_222-p-500 1.png";
 import img2 from "./assets/images/demex_wordmark_primary_white_no_bg 1.png";
@@ -38,7 +39,11 @@ function App() {
         <PrimaryBtn text="Book Consultation" />
       </div>
       <h1 className="text-center py-5  pb-4 heading-h1">Trusted by Partners</h1>
-      <div className="logo-section pb-5">
+      <LogoSlider />
+     
+     
+     
+      {/* <div className="logo-section pb-5">
         <div className="container-fluid">
           <div className="text-icon">
             <ImageTextSection imageSrc={img10} />
@@ -55,7 +60,7 @@ function App() {
             <ImageTextSection imageSrc={img11} />
           </div>
         </div>
-      </div>
+      </div> */}
       <Cta />
       <h1 className="text-center py-5  pb-5 heading-h1">Our Services</h1>
       <Servicescomponent
@@ -93,7 +98,7 @@ et dolore"
 
 
 <h1 className="text-center py-5  pb-4 heading-h1">Testimonials</h1>
-<div className="container">
+<div className="container testimonial-slider">
 <TestimonialSlider />
 </div>
 
@@ -147,6 +152,11 @@ et dolore"
     
   </div>
   <div className="view-more py-5"><PrimaryBtn text="view More"/></div>
+</div>
+<div className="logo-wrapper">
+
+
+
 </div>
 
 

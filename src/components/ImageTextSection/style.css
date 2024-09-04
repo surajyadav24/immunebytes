@@ -17,8 +17,9 @@ line-height: normal;
 }
 .image-text-section {
     object-fit: cover;
-    aspect-ratio: 2 /;
     display: flex;
     max-width: 17%;
     justify-content: center;
 }
+
+ 
