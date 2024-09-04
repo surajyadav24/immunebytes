@@ -7,14 +7,14 @@ const Herosection = () => {
   return (
     <>
     <div className="hero-wrapper">
-    <div className="container-fluid  py-5">
+    <div className="container-fluid  py-5 ">
       <div className="container">
       <h1 className="display-4 heading font-weight-bold">
       <span>BLOCKCHAIN</span>  SECURITY
             </h1>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  </p>
         <div className="row align-items-center py-5">
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex justify-content-center">
            
     <div className="left-box">
 <img src={leftboximg
@@ -22,7 +22,7 @@ const Herosection = () => {
     </div>
           </div>
   
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex justify-content-center">
           <div className="right-box">
           <img src={rightboximg
 } alt="" />
