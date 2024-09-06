@@ -109,7 +109,7 @@ et dolore"
 
   <div className="row">
 
-  <div className="col-lg-6 md-6">
+  <div className="col-lg-6 md-6 col-sm-12">
   <div className="card-bg-1 pb-4 ">
   <CaseStudyCard
         title="Case study name"
@@ -119,7 +119,7 @@ et dolore"
       />
       </div>
     </div>
-  <div className="col-lg-6 md-6">
+  <div className="col-lg-6 md-6 col-sm-12">
   <div className="card-bg-2 pb-4 d-flex justify-content-end">
   <CaseStudyCard 
         title="Case study name"
@@ -129,7 +129,7 @@ et dolore"
       />
   </div>
     </div>
-  <div className="col-lg-6 md-6">
+  <div className="col-lg-6 md-6 col-sm-12">
   <div className="card-bg-3 pt-4">
   <CaseStudyCard 
         title="Case study name"
@@ -139,7 +139,7 @@ et dolore"
       />
   </div>
     </div>
-  <div className="col-lg-6 md-6 d-flex justify-content-end">
+  <div className="col-lg-6 md-6 d-flex justify-content-end col-sm-12">
   <div className="card-bg-4 pt-4">
   <CaseStudyCard 
         title="Case study name"

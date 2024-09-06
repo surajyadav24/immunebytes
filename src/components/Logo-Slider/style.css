@@ -22,12 +22,32 @@
     background-color: #D9D9D91A;
     border-radius: 20px;
     max-width: 190px ;
+display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
 
 ul.splide__pagination.splide__pagination--ltr {
     display: none;
 }
-.splide__slide:hover{
-    box-shadow: 5px 5px 8px #ffffff83;
+.splide__slide:hover {
+    box-shadow: 5px 5px 8px #f9116c;
+}
+@media (max-width:425px) {
+    .splide {
+        padding: 0px 0;
+    }
+    .splide__slide{
+        display: flex;
+        padding: 5px 5px;
+        margin: 7px;
+        background-color: #D9D9D91A;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0.8);
+    }
 }

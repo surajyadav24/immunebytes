@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import "./style.css"
+import "./style.css";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay'; // Import Autoplay styles
@@ -13,32 +13,31 @@ const TestimonialSlider = () => {
       id: 1,
       name: 'John Doe',
       image: 'https://via.placeholder.com/100',
-      quote: `${'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}`
+      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
     },
     {
       id: 2,
       name: 'Jane Smith',
       image: 'https://via.placeholder.com/100',
-      quote: `${'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}`,
+      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
     },
     {
       id: 3,
       name: 'Mike Johnson',
       image: 'https://via.placeholder.com/100',
-      quote: `${'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}`
-    },
-  
-    {
-      id: 5,
-      name: 'Mike Johnson',
-      image: 'https://via.placeholder.com/100',
-      quote: `${'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}`,
+      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
     },
     {
-      id: 5,
-      name: 'Mike Johnson',
+      id: 4,
+      name: 'Sarah Williams',
       image: 'https://via.placeholder.com/100',
-      quote: `${'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}`,
+      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
+    },
+    {
+      id: 5,
+      name: 'David Brown',
+      image: 'https://via.placeholder.com/100',
+      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
     },
   ];
 
@@ -46,17 +45,28 @@ const TestimonialSlider = () => {
     <div className='py-5'>
       <Swiper
         spaceBetween={50}
-        slidesPerView={3}
         navigation
         centeredSlides={true}
-        pagination={{    dynamicBullets: true, }}
+        pagination={{ dynamicBullets: true }}
         grabCursor={true}
-        loop={true}  // Enable looping
-        autoplay={{ // Enable autoplay
-          delay: 5000, // Time between slides in milliseconds
-          disableOnInteraction: false, // Continue autoplay even after user interactions
+        loop={true}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
         }}
-        modules={[Navigation, Pagination, Autoplay]} // Include Autoplay module
+        breakpoints={{
+          640: {
+            slidesPerView:1,
+            spaceBetween:30// 1 slide on mobile screens
+          },
+          768: {
+            slidesPerView: 2, // 2 slides on medium screens
+          },
+          1024: {
+            slidesPerView: 3, // 3 slides on larger screens
+          },
+        }}
+        modules={[Navigation, Pagination, Autoplay]}
       >
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>

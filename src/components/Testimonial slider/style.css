@@ -49,3 +49,11 @@ text-align: center;
 font-family: RobotoMono-Regular;
 color: #F9116C;
 }
+
+@media (max-width:425px) {
+    .testimonial-slider .swiper-slide.swiper-slide-active{
+        transform: scale(0.9) !important;
+    }
+}
+
+

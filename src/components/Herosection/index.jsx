@@ -14,7 +14,7 @@ const Herosection = () => {
             </h1>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  </p>
         <div className="row align-items-center py-5">
-          <div className="col-md-6 d-flex justify-content-center">
+          <div className="col-md-6 d-flex justify-content-end">
            
     <div className="left-box">
 <img src={leftboximg
@@ -22,7 +22,7 @@ const Herosection = () => {
     </div>
           </div>
   
-          <div className="col-md-6 d-flex justify-content-center">
+          <div className="col-md-6 d-flex justify-content-start">
           <div className="right-box">
           <img src={rightboximg
 } alt="" />

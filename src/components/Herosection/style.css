@@ -29,3 +29,17 @@ position: relative;
 .right-box{
     margin-left: 0px;
 }
+@media (max-width:425px) {
+    .heading {
+        text-align: left;
+        color: #fff;
+        font-size: 20px;
+    }
+    .hero-wrapper p {
+        max-width: 80%;
+        font-size: 12px;
+        line-height: 27px;
+        letter-spacing: 2.15px !important;
+        margin: 0px;
+    }
+}

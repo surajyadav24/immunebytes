@@ -67,3 +67,49 @@
     center / contain;
     padding: 59px 60px;
 }
+
+.box-wrap:hover .first-clients h2 {
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-fill-color: #fff;
+  /* -webkit-text-stroke-color: #fff; */
+}
+.box-wrap:hover .third-clients h2 {
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-fill-color: #fff;
+  /* -webkit-text-stroke-color: #fff; */
+}
+@media (max-width:425px) {
+
+.clients-5:hover{
+  padding: 60px 47px;
+}
+.first-clients {
+    padding: 94px 49px;
+    background: url(../../assets/images/whychoose/bg-first.svg) no-repeat center
+    center / contain;
+}
+.first-clients:hover {
+    padding: 76px 49px;
+
+}
+.sec-clients {
+  background: url(../../assets/images/whychoose/bg-sec.svg) no-repeat center
+  center / contain;
+    padding: 59px 30px;
+}
+.sec-clients:hover {
+    padding: 59px 30px;
+}
+.third-clients {
+  background: url(../../assets/images/whychoose/bg-third.svg) no-repeat center
+  center / contain;
+  padding: 94px 41px;
+}
+.third-clients:hover {
+  padding: 94px 41px;
+}
+.box-wrap h2 {
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-color: #fff !important;
+}
+}
