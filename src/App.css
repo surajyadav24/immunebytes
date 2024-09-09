@@ -75,3 +75,6 @@ button.splide__arrow.splide__arrow--prev {
 button.splide__arrow.splide__arrow--next {
   display: none;
 }
+.case-study-wrapper{
+  max-width: 1200px !important;
+}

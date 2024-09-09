@@ -103,10 +103,11 @@ et dolore"
 </div>
 
 <div className="container">
+  
 <h1 className="text-center py-5  pb-4 heading-h1">Case Studies</h1>
 
 
-
+<div className=" case-study-wrapper">
   <div className="row">
 
   <div className="col-lg-6 md-6 col-sm-12">
@@ -152,6 +153,7 @@ et dolore"
     
   </div>
   <div className="view-more py-5"><PrimaryBtn text="view More"/></div>
+</div>
 </div>
 <div className="logo-wrapper">
 
