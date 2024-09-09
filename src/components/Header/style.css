@@ -77,7 +77,12 @@ header .nav-item .nav-link:hover {
   font-size: 18px;
   padding: 10px 0;
 }
-
+a.btn.register-btn.d-none.d-md-inline-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
 .mobile-nav .register-btn {
   width: 100%;
   margin-top: 15px;

@@ -29,12 +29,12 @@ text-align: center;
     color: #fff;
 }
 .btn-section button {
-    margin: 4px 10px !important;
+    margin: 4px 0px !important;
     border: none;
     font-family: RobotoMono-Bold;
     text-decoration: none;
-    min-width: 205px;
-    min-height: 60px;
+    min-width: 233px;
+    min-height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@ text-align: center;
     background-color: transparent;
     outline: none;
     gap: 0px 12px;
-}   
+} 
 .btn-section button img{
     max-width: 30px;
 }
@@ -66,7 +66,7 @@ text-align: center;
 }
 .twit-x{
     margin: 10px 0px !important;
-    background: url(../../assets/images/twitx.svg)no-repeat center center / contain;
+    background: url(../../assets/images/twitx.svg)no-repeat center center / 100%;
 }
 
 @media (max-width:425px) {

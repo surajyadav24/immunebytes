@@ -4,13 +4,13 @@
     background:url(../../assets/images/slider/active-slide.svg) no-repeat center center/ contain ;
 }
 .testimonial-slider .swiper-slide-prev {
-    padding: 20px 25px;
+    padding: 20px 50px;
     min-height: 440px;
     max-height: 263px !important;
     background:url(../../assets/images/slider/prev-slide.svg) no-repeat center center/ contain ;
 }
 .testimonial-slider .swiper-slide-next{
-    padding: 20px 25px;
+    padding: 20px 50px;
     min-height: 440px;
     max-height: 263px !important;
     background:url(../../assets/images/slider/next-slide.svg) no-repeat center center/ contain ;
