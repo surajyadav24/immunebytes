@@ -196,6 +196,15 @@ a.btn.register-btn.d-none.desktop-btn.d-md-inline-block {
 a.btn.register-btn.mobile-btn.text-white{
   margin-left: 50%;
 }
+a.btn.register-btn.text-white {
+  margin: 0px;
+  padding-top: 5px;
+  max-width: 190px;
+  font-size: 14px;
+  margin-right: 0px;
+  margin-left: 30%;
+}
+
 }
 @media (max-width:425px) {
   header.text-white.p-3 {
@@ -239,6 +248,7 @@ padding-top: 20px;
 }
 .hero-wrapper .row.align-items-center.py-5 {
   padding-bottom: 0px !important;
+  padding-top: 0px !important;
 }
 button.btn.btn-primary {
   padding: 18px 17px;
@@ -247,6 +257,9 @@ button.btn.btn-primary {
 button.btn.btn-primary span {
   transform: scale(0.8);
   padding-left: 15px;
+}
+a.btn.register-btn.mobile-btn.text-white{
+  margin-left: 0px;
 }
 
 }

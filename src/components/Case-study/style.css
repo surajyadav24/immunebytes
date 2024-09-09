@@ -103,4 +103,11 @@ border: none;
   max-height: 250px;
   min-height: 250px;
 }
+.case-study-wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1050px !important;
+  flex-direction: column;
+  align-items: center;
+} 
 }

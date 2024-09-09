@@ -61,4 +61,7 @@ position: relative;
         letter-spacing: 2.15px !important;
         margin: 0px;
     }
+    .left-box, .right-box {
+        margin-bottom: 40px;
+    }
 }

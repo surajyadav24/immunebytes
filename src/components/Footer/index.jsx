@@ -61,7 +61,13 @@ const Footer = () => {
             </form>
           </div>
 
-         
+          <div className="social-icons mobile-social">
+              <a href="#"><i className="fab fa-facebook-f"></i></a>
+              <a href="#"><i className="fab fa-twitter"></i></a>
+              <a href="#"><i className="fab fa-linkedin-in"></i></a>
+              <a href="#"><i className="fab fa-instagram"></i></a>
+              <a href="#"><i className="fab fa-github"></i></a>
+            </div>
 
           <div className="col-12 footer-bottom  d-flex justify-content-between align-items-center">
             <p>©2024 ImmuneBytes. All Rights Reserved</p>

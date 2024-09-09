@@ -79,3 +79,9 @@ button.splide__arrow.splide__arrow--next {
   max-width: 1050px !important;
   margin: 0 auto;
 }
+@media (max-width:425px) {
+  h1.text-center.py-5.pb-4.heading-h1 {
+    padding-bottom: 20px !important;
+}
+
+}
