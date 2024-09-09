@@ -3,7 +3,7 @@ import  './style.css'
 const Whychooseus = () => {
   return (
    <>
-   <div className="container py-5">
+   <div className="container py-5 clients-card">
     <div className="row">
         <div className="col-lg-8">
             <div className="clients">

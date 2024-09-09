@@ -6,7 +6,17 @@ const Footer = () => {
     <footer className="footer">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-3 col-md-6 col-sm-12 footer-section footer-section-1">
+        <div className="col-lg-3 col-md-6  footer-section  footer-section-4 footer-mobile">
+            <h3>Subscribe</h3>
+            <form>
+              <label htmlFor="first&lastname">First & Last Name</label>
+              <input type="text" placeholder="First & Last Name" />
+              <label htmlFor="email">E-mail</label>
+              <input type="email" placeholder="Email Address" />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-6 footer-section footer-section-1">
             <h3>Home</h3>
             <ul>
               <li><a href="#">Portfolio</a></li>
@@ -23,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-12 footer-section footer-section-2">
+          <div className="col-lg-3 col-md-6 col-sm-6 footer-section footer-section-2">
             <h3>Services</h3>
             <ul>
               <li><a href="#">Smart contract audit</a></li>
@@ -40,7 +50,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-12 footer-section order-sm-1 footer-section-4">
+          <div className="col-lg-3 col-md-6  footer-section  footer-section-4">
             <h3>Subscribe</h3>
             <form>
               <label htmlFor="first&lastname">First & Last Name</label>
@@ -50,6 +60,8 @@ const Footer = () => {
               <button type="submit">Submit</button>
             </form>
           </div>
+
+         
 
           <div className="col-12 footer-bottom  d-flex justify-content-between align-items-center">
             <p>©2024 ImmuneBytes. All Rights Reserved</p>

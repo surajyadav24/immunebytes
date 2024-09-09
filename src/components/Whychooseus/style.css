@@ -95,7 +95,8 @@ padding: 20px 10px;
 min-height: 250px;
 }
 .col-lg-4.box-wrap {
-    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 .clients h2 {
     font-size: 65px;
@@ -103,15 +104,17 @@ min-height: 250px;
     text-align: left;
 }
 .clients:hover h2 {
-    font-size: 65px;
+    font-size: 41px;
 }
 .clients h2 , .clients-5 h2{
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke-color: #fff;
 }
+.clients-5:hover{
+    background: url(../../assets/images/Second-frame.svg) no-repeat center center / contain;
+}
 .clients-5{
-
-    background: url(../../assets/images/whychoose/bg-5kbase.svg);
+    background: url(../../assets/images/Second-frame.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,6 +124,10 @@ min-height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.first-clients {
+    padding: 20px;
+    background: url("../../assets/images/third-frame.svg") no-repeat center center / contain;
 }
 .clients-5 h2 {
     padding: 40px 0px;
@@ -136,10 +143,28 @@ min-height: 250px;
     font-size: 41px;
 }
 .clients-5 h2 span {
+    padding-left: 40px;
     font-size: 41px;
 }
 .clients-5 {
     text-align: center;
 
+}
+.first-clients h2 {
+    font-family: 'RobotoMono-Regular' !important;
+    font-size: 41px !important;
+    font-weight: 400;
+}
+.clients-5 h2{
+    font-family: 'RobotoMono-Regular' !important;
+    font-size: 41px !important;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.container.py-5.clients-card {
+    padding: 0px !important;
+} 
+.clients-5:hover {
+    padding: 30px 47px;
 }
 }
