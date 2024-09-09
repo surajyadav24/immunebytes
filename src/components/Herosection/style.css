@@ -29,6 +29,25 @@ position: relative;
 .right-box{
     margin-left: 0px;
 }
+@media (max-width:768px) {
+    .heading {
+        text-align: left;
+        color: #fff;
+        font-size: 30px;
+    }
+    .hero-wrapper p {
+        max-width: 80%;
+        font-size: 12px;
+        line-height: 27px;
+        letter-spacing: 2.15px !important;
+        margin: 0px;
+    }
+    .left-box, .right-box {
+        width: 500.971px;
+        height: 415.276px;
+        position: relative;
+    }
+}
 @media (max-width:425px) {
     .heading {
         text-align: left;

@@ -35,6 +35,48 @@ transform: scale(0.5);
     background-size: contain;
     background-repeat: no-repeat;
 }
+@media (max-width:768px) {
+    .left-serv{
+        width: 50% !important;
+    }
+    .col-lg-8.md-6.col-sm-6.col-xs-6.left-serv {
+        max-width: 50%;
+    }
+    .col-lg-4.md-6.col-sm-6.col-xs-6.right-serv {
+        max-width: 50%;
+    }
+    .service-discription h2 {
+       font-size: 14px;
+
+}
+.service-discription p {
+    max-width: 145px;
+
+}
+.service-discription h2 {
+    padding-bottom: 0px;
+}
+.service-discription button.btn.btn-primary {
+    padding: 5px 6px !important;
+    font-size: 10px;
+}
+.service-discription p {
+    font-size: 9px;
+    max-width: 165px;
+    line-height: 16px;
+}
+.service-img img {
+    margin-right: 0px;
+    max-width: 50%;
+}
+.service-img {
+    display: flex;
+    justify-content: flex-end;
+}
+.service-discription {
+    padding-bottom: 40px;
+}
+}
 @media (max-width:425px) {
     .left-serv{
         width: 50% !important;

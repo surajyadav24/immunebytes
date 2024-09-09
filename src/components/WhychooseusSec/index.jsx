@@ -5,7 +5,7 @@ const Whychooseusec = () => {
    <>
    <div className="container">
     <div className="row">
-        <div className="col-lg-4 box-wrap">
+        <div className="col-lg-4 box-wrap col-md-4">
             <div className="first-clients">
                 <h2>
                     500k 
@@ -13,7 +13,7 @@ const Whychooseusec = () => {
                 </h2>
             </div>
         </div>
-        <div className="col-lg-4 box-wrap">
+        <div className="col-lg-4 box-wrap col-md-4">
             <div className="sec-clients">
                 <h2>
                     500k 
@@ -22,7 +22,7 @@ const Whychooseusec = () => {
                 </h2>
             </div>
         </div>
-        <div className="col-lg-4 box-wrap">
+        <div className="col-lg-4 box-wrap col-md-4">
             <div className="third-clients">
                 <h2>
                     500k 

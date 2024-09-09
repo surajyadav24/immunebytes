@@ -15,7 +15,7 @@ function Header() {
         <div className="container d-flex justify-content-between align-items-center p-0">
           <div className="h3 font-weight-bold">Your Logo</div>
 
-          <nav className={`d-none d-md-block ${isOpen ? "open" : ""}`}>
+          <nav className={`d-none  ${isOpen ? "open" : ""}`}>
             <ul className="nav">
               <li className="nav-item">
                 <a href="#home" className="nav-link text-white">
@@ -40,14 +40,14 @@ function Header() {
             </ul>
           </nav>
 
-          <a href="#" className="btn register-btn d-none d-md-inline-block">
+          <a href="#" className="btn register-btn d-none desktop-btn d-md-inline-block">
             Request Audit
           </a>
           <a href="#" className="btn register-btn mobile-btn text-white">
                   Request Audit
                 </a>
           {/* Hamburger Menu */}
-          <div className="hamburger d-md-none" onClick={toggleMenu}>
+          <div className="hamburger  " onClick={toggleMenu}>
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
@@ -56,7 +56,7 @@ function Header() {
      
         {/* Mobile Menu */}
         {isOpen && (
-          <nav className="mobile-nav d-md-none">
+          <nav className="mobile-nav ">
             <ul className="nav flex-column">
               <li className="nav-item">
                 <a href="#home" className="nav-link text-white">

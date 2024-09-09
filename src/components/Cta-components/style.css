@@ -24,6 +24,17 @@ backdrop-filter: blur(37.06666564941406px);
     margin-top: 40px !important;
     padding: 15px 27px !important;
 }
+
+@media (max-width:768px) {
+    .cta-wrapper h2{
+        font-size: 42px;
+    }
+    button.btn.btn-primary{
+        font-size: 15px;
+    }
+}
+
+
 @media (max-width:425px) {
     .cta-wrapper {
         margin: 30px 0px;

@@ -142,6 +142,42 @@
   .footer-links {
     margin-top: 10px;
   }
+  .col-lg-3.col-md-6.footer-section.footer-section-4 {
+    display: none;
+}
+footer .container-fluid{
+  width: 100vw;
+}
+.footer-section ul li a , .col-lg-3.col-md-6.col-sm-12.footer-section.footer-section-3 p , .footer-bottom p .footer-links{
+  color: #928B8B;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-mobile h3 {
+  text-align: left;
+  font-size: 26px;
+}
+.col-lg-3.col-md-6.footer-section.footer-section-4{
+  display: none;
+}
+.footer-section {
+  margin-bottom: 20px;
+  min-width: 20%;
+  text-align: left;
+}
+.footer-section form {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-section h3 {
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.footer-section form label {
+  text-align: left;
+}
 }
 
 @media (max-width:425px) {
