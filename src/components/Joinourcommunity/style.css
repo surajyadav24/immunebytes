@@ -103,7 +103,7 @@ text-align: center;
     .join-wrapper h2 {
         padding: 0px 0px;
         font-family: 'RobotoMono-Bold';
-        font-size: 26px;
+        font-size: 40npx;
         text-transform: uppercase;
         font-weight: 800;
     }

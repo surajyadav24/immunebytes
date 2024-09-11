@@ -8,7 +8,7 @@ const PrimaryBtn = ({text}) => {
   return (
     <>
       <Button 
-        style={{ backgroundColor: '#000', color: 'white' }} 
+        style={{ backgroundColor: 'transparent', color: 'white' }} 
       >
         {text}
         <span>
