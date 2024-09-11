@@ -20,7 +20,7 @@ a.register-btn:hover {
 
 a.register-btn {
   border-radius: 10px;
-  color: #f9116c;
+  color: #f9116c !important;
   text-align: center;
   letter-spacing: 1px;
   font-size: 19px;

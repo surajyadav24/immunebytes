@@ -1,6 +1,7 @@
 button.btn.btn-primary {
-    padding: 20px 27px;
+    padding: 15px 13px;
     margin: 0 auto;
+    font-size: 16px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -11,11 +12,15 @@ button.btn.btn-primary {
     background-repeat: no-repeat;
     color: #FFF;
     font-family: "RobotoMono-regular";
-    font-size: 19px;
+   
     font-style: normal;
     font-weight: 700;
     text-align: center;
 }
-button.btn.btn-primary span{
-    padding-left: 15px;
+button.btn.btn-primary span {
+    padding-left: 7px;
+}
+button.btn.btn-primary svg {
+    width: 17px;
+    margin-left: 0px;
 }
