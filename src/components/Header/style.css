@@ -33,7 +33,7 @@ a.register-btn {
 }
 
 .nav {
-  gap: 0px 60px;
+  gap: 0px 30px;
 }
 
 header .nav-link {
@@ -42,7 +42,7 @@ header .nav-link {
   padding-bottom: 8px;
   color: #fff;
   font-family: "Arame-Thin";
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 1px;
   font-weight: 400;
   transition: 0.2s ease-in;
@@ -91,6 +91,9 @@ a.btn.register-btn.d-none.d-md-inline-block {
 }
 .mobile-btn{
   display: none !important;
+}
+.logo{
+  min-width: 216px;
 }
 
 /* Responsive Design */

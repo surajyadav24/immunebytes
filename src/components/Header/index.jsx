@@ -13,7 +13,7 @@ function Header() {
     <>
       <header className="text-white p-3">
         <div className="container d-flex justify-content-between align-items-center p-0">
-          <div className="h3 font-weight-bold">Your Logo</div>
+          <div className="h3 font-weight-bold logo">Your Logo</div>
 
           <nav className="desktop-nav d-none d-md-block">
             <ul className="nav">
@@ -24,17 +24,17 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a href="#about" className="nav-link text-white">
-                  About
+                 Portfolio
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#services" className="nav-link text-white">
-                  Services
+                  About Us
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#contact" className="nav-link text-white">
-                  Contact
+             BLog
                 </a>
               </li>
             </ul>
@@ -64,17 +64,17 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a href="#about" className="nav-link text-white">
-                  About
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#services" className="nav-link text-white">
-                  Services
+                  About Us
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#contact" className="nav-link text-white">
-                  Contact
+             Blog
                 </a>
               </li>
             </ul>
