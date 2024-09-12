@@ -62,8 +62,10 @@ function App() {
         </div>
       </div> */}
       <Cta />
+
+      <div className="services-wrapper">
       <h1 className="text-center py-5  pb-5 heading-h1">Our Services</h1>
-      <Servicescomponent
+      <Servicescomponent 
         imageSrc={serviceimg}
         heading="Smart Contract Audit"
         paragraphtext="Lorem ipsum dolor sit amet,
@@ -72,7 +74,7 @@ sed do eiusmod tempor
 incididunt ut labore
 et dolore"
       />
-      <Servicescomponent
+      <Servicescomponent className="service-2"
         imageSrc={serviceimg3}
         heading="Blockchain Security Service"
         paragraphtext="Lorem ipsum dolor sit amet,
@@ -81,7 +83,7 @@ sed do eiusmod tempor
 incididunt ut labore
 et dolore"
       />
-      <Servicescomponent
+      <Servicescomponent className='service-3'
         imageSrc={serviceimg2}
         heading="Penetration Testing"
         paragraphtext="Lorem ipsum dolor sit amet,
@@ -90,7 +92,7 @@ sed do eiusmod tempor
 incididunt ut labore
 et dolore"
       />
-
+</div>
 <div className="container pb-4">
 <h1 className="text-center py-5  pb-4 heading-h1">Why Choose Us ?</h1>
 <Whychooseus/>

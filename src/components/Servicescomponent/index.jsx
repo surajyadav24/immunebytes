@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import PrimaryBtn from "../Primarybutton";
 
-const servicesComponent = ( {heading, paragraphtext, imageSrc }) => {
+const servicesComponent = ( {heading, paragraphtext, imageSrc,  }) => {
   return (
     <>
     <div className="container">

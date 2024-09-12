@@ -67,12 +67,12 @@
 
 .box-wrap:hover .first-clients h2 {
   -webkit-text-stroke-color: #000000;
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: #000;
   /* -webkit-text-stroke-color: #fff; */
 }
 .box-wrap:hover .third-clients h2 {
   -webkit-text-stroke-color: #000000;
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: #000;
   /* -webkit-text-stroke-color: #fff; */
 }
 .sec-clients:hover{

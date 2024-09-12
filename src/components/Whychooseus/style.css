@@ -4,10 +4,14 @@
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 80%;
-    min-height: 400px;
+    height: 95%;
+    display: flex;
+    width: 90%;
+    min-height: 389px;
+    justify-content: center;
+    align-items: center;
 }
+
 .clients h2{
     padding-top: 36px;
     text-align: justify;
@@ -15,7 +19,7 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #4F4F4F;
 font-family: "RobotoMono-Bold";
-font-size: 100px;
+font-size: 90px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -24,12 +28,14 @@ line-height: normal;
     padding: 40px 50px;
     background: url(../../assets/images/whychoose/base-bg.svg);
     background-size: 100%;
-    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 80%;
-    min-height: 400px;
+    height: 95%;
+    display: flex;
+    width: 90%;
+    min-height: 389px;
+    justify-content: center;
+    align-items: center;
 }
 .clients:hover h2 , .clients-5:hover h2{
     -webkit-text-fill-color: #fff;
@@ -51,28 +57,35 @@ font-weight: 700;
 line-height: normal;
 }
 .clients-5{
-    padding: 40px 50px;
+    padding: 0px 0px;
     background: url(../../assets/images/whychoose/client500k.svg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    min-height: 250px;
+    min-height: 193px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .clients-5:hover{
-    padding: 40px 50px;
+    padding: 0px 10px;
     background: url(../../assets/images/whychoose/bg-5kbase.svg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    min-height: 200px;
+    min-height: 193px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .clients-5 h2  span{
-    font-size: 60px;
+    font-size: 40px;
 }
+
 @media (max-width:768px) {
     
 .clients {

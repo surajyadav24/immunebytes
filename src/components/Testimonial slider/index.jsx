@@ -42,7 +42,7 @@ const TestimonialSlider = () => {
   ];
 
   return (
-    <div className='py-5'>
+    <div className='testimonial-wrapper'>
       <Swiper
         spaceBetween={50}
         navigation
@@ -51,7 +51,7 @@ const TestimonialSlider = () => {
         grabCursor={true}
         loop={true}
         autoplay={{
-          delay: 500000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         breakpoints={{

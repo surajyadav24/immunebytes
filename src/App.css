@@ -76,8 +76,17 @@ button.splide__arrow.splide__arrow--next {
   display: none;
 }
 .case-study-wrapper{
-  max-width: 1050px !important;
+
   margin: 0 auto;
+}
+button.twit-x img {
+  max-width: 23px !important;
+}
+.view-more button {
+  padding: 4px 12px !important;
+  font-size: 16px !important;
+  line-height: 24px;
+  font-family: 'RobotoMono-Regular' !important;
 }
 @media (max-width:425px) {
   h1.text-center.py-5.pb-4.heading-h1 {

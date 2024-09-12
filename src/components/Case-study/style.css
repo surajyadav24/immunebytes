@@ -6,8 +6,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   color: white;
   display: flex;
-  padding: 20px;
-  max-width: 480px;
+  padding: 20px 40px; 
+  max-width: 100%;
   justify-content: space-between;
   align-items: center;
   min-height: 300px;
@@ -76,6 +76,52 @@ border: none;
 }
 
 
+
+.services-wrapper .right-serv {
+  position: relative;
+}
+
+/* Styles for the ::after pseudo-element */
+.right-serv::after {
+  content: url('../../assets/images/first-audit.svg');
+  position: absolute;
+  top: -67% !important;/* Start position off the screen */
+  left: 60px;
+  right: 0;
+  transform: scale(0.5) !important ;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-out, top 0.5s ease-out;
+}
+/* .services-wrapper .right-serv:nth-child(2)::after{
+  content: url('../../assets/images/second-audit.svg');
+} */
+
+/* Hover state to trigger animation */
+.services-wrapper .row:hover::after {
+  top: -67% ;
+  opacity: 1;
+}
+
+/* Keyframe animation */
+@keyframes revealFromBottom {
+  0% {
+    opacity: 0;
+    top: 100%;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+    transform: translateY(0px);
+    
+  }
+}
+
+/* Apply animation on hover */
+.services-wrapper .row:hover .right-serv::after {
+  animation: revealFromBottom 0.5s ease-out forwards;
+}
+
 @media (max-width:425px) {
   .card-title {
     font-size: 17px;
@@ -106,7 +152,7 @@ border: none;
 .case-study-wrapper {
   display: flex;
   margin: 0 auto;
-  max-width: 1050px !important;
+
   flex-direction: column;
   align-items: center;
 } 
