@@ -78,7 +78,11 @@ border: none;
 
 
 .services-wrapper .right-serv {
+  max-width: 28%;
   position: relative;
+}
+.services-component .row {
+  justify-content: space-between;
 }
 
 /* Styles for the ::after pseudo-element */
