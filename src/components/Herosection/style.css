@@ -33,6 +33,7 @@ position: relative;
 
 .hero-wrapper .row.align-items-center.py-5 {
     padding: 0px !important;
+    justify-content: center;
 }
 @media (max-width:768px) {
     .heading {
@@ -49,7 +50,7 @@ position: relative;
     }
     .left-box, .right-box {
         width: 50%;
-        height: 415.276px;
+        height: auto;
         position: relative;
     }
 }
@@ -68,5 +69,10 @@ position: relative;
     }
     .left-box, .right-box {
         margin-bottom: 40px;
+        width: 100%;
+        height: auto;
+    }
+    .py-5.sm-py-2 {
+        padding-bottom: 0px !important;
     }
 }

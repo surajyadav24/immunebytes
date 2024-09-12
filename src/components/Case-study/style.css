@@ -86,15 +86,22 @@ border: none;
   content: url('../../assets/images/first-audit.svg');
   position: absolute;
   top: -67% !important;/* Start position off the screen */
-  left: 60px;
+  left:141px;
   right: 0;
   transform: scale(0.5) !important ;
   opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease-out, top 0.5s ease-out;
+  transition: opacity 0.3s ease-out, top 1s ease-out;
 }
-/* .services-wrapper .right-serv:nth-child(2)::after{
+.service-2 .right-serv::after{
   content: url('../../assets/images/second-audit.svg');
-} */
+  left: 124px;
+    top: -55% !important;
+}
+.service-3 .right-serv::after{
+  content: url('../../assets/images/third-audit.svg');
+  left: 136px;
+    top: -38% !important;
+}
 
 /* Hover state to trigger animation */
 .services-wrapper .row:hover::after {
@@ -156,4 +163,39 @@ border: none;
   flex-direction: column;
   align-items: center;
 } 
+
+
+.services-wrapper .right-serv {
+  position: relative;
+}
+
+/* Styles for the ::after pseudo-element */
+.right-serv::after {
+  content: url('../../assets/images/first-audit.svg');
+  position: absolute;
+  top: -92% !important;
+  left: 45px;
+  right: 0;
+  transform: scale(0.3) !important ;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-out, top 1s ease-out;
+  opacity: 1 !important;
+}
+.service-2 .right-serv::after{
+  content: url('../../assets/images/second-audit.svg') !important;
+  left: 40px;
+  top: -68% !important;
+  opacity: 1 !important;
+}
+.service-3 .right-serv::after{
+  content: url('../../assets/images/third-audit.svg');
+  left: 43px;
+  top: -59% !important;
+  opacity: 1 !important;
+}
+
+
+/* Hover state to trigger animation */
+
+
 }

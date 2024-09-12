@@ -29,6 +29,7 @@ import Whychooseusec from "./components/WhychooseusSec";
 import CaseStudyCard from "./components/Case-study";
 import Community from "./components/Joinourcommunity";
 import Footer from "./components/Footer";
+import AuditProcess from "./components/Audit-Process";
 
 function App() {
   return (
@@ -65,7 +66,7 @@ function App() {
 
       <div className="services-wrapper">
       <h1 className="text-center py-5  pb-5 heading-h1">Our Services</h1>
-      <Servicescomponent 
+      <Servicescomponent className="service-1"
         imageSrc={serviceimg}
         heading="Smart Contract Audit"
         paragraphtext="Lorem ipsum dolor sit amet,
@@ -93,6 +94,10 @@ incididunt ut labore
 et dolore"
       />
 </div>
+
+
+<h1 className="text-center py-5  pb-4 heading-h1">Audit Process</h1>
+<AuditProcess/>
 <div className="container pb-4">
 <h1 className="text-center py-5  pb-4 heading-h1">Why Choose Us ?</h1>
 <Whychooseus/>

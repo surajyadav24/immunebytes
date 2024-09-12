@@ -43,7 +43,7 @@ transform: scale(0.5);
 }
 .service-img {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 .service-img img{
@@ -116,20 +116,25 @@ transform: scale(0.5);
     padding: 5px 6px !important;
     font-size: 10px;
 }
+
 .service-discription p {
     font-size: 9px;
     max-width: 165px;
     line-height: 16px;
 }
+
 .service-img img {
     margin-right: 0px;
     max-width: 80%;
 }
+
 .service-img {
     display: flex;
     justify-content: flex-end;
 }
+
 .service-discription {
     padding-bottom: 40px;
 }
+
 }

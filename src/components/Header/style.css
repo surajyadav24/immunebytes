@@ -204,12 +204,15 @@ a.btn.register-btn.mobile-btn.text-white{
 a.btn.register-btn.text-white {
   margin: 0px;
   padding-top: 5px;
-  max-width: 190px;
-  font-size: 14px;
+  max-width: 178px;
+  font-size: 11px;
   margin-right: 0px;
-  margin-left: 30%;
+  margin-left: 0px;
+  padding: 12px 15px;
 }
-
+.logo {
+  min-width: auto;
+}
 }
 @media (max-width:425px) {
   header.text-white.p-3 {

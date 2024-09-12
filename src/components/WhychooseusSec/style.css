@@ -174,13 +174,13 @@
 .sec-clients {
   background: url(../../assets/images/fourth-sec.svg) no-repeat center
   center / contain;
-    padding: 30px 40px;
+    padding: 30px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .sec-clients:hover {
-    padding: 30px 40px;
+    padding: 30px 10px;
 }
 .third-clients {
   background: url(../../assets/images/fifth-frame.svg) no-repeat center
@@ -192,7 +192,9 @@
   center / contain;
   padding: 30px 60px;
 }
-
+.clients:hover h2 br{
+  display: none;
+}
 
 .box-wrap h2 {
   font-size: 41px;
