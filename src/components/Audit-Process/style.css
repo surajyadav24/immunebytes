@@ -1,12 +1,12 @@
 .first-audit {
-    gap: 20px 52px;
+    gap: 20px 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 .first-audit .item {
-    max-width: 20%;
+    max-width: 17%;
     position: relative !important;
 }
 .first-audit .item:nth-child(1)::after{
@@ -60,8 +60,9 @@
 .first-audit .item:nth-child(7)::after{
     content: url('../../assets/images/audit-process/au-bg7.svg');
         position: absolute;
-        top: -65px;
-        left: 23px;
+        top: -72px;
+        left: 5px;
+    
         transform: scale(0.75);
         opacity: 0;
     }
@@ -73,7 +74,7 @@
     .audit-process-container {
         background: url(../../assets/images/audit-process/dis-bg.svg) no-repeat center center / contain;
             background-color: transparent;
-            padding: 20px;
+            padding: 50px;
             border-radius: 8px;
             margin-top: 20px;
             text-align: center;
