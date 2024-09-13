@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
 .first-audit .item {
-    max-width: 17%;
+    max-width: 198px;
     position: relative !important;
 }
 .first-audit .item:nth-child(1)::after{

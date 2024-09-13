@@ -11,10 +11,10 @@ const Herosection = () => {
       <div className="container">
 
         
-      <h1 className="display-4 heading font-weight-bold">
+      {/* <h1 className="display-4 heading font-weight-bold">
       <span>BLOCKCHAIN</span>  SECURITY
             </h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  </p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  </p> */}
         <div className="row align-items-center py-5">
           <div className="col-md-6 col-sm-6 d-flex justify-content-end">
            

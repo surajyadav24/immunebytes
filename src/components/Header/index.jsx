@@ -15,7 +15,7 @@ function Header() {
         <div className="container d-flex justify-content-between align-items-center p-0">
           <div className="h3 font-weight-bold logo">Your Logo</div>
 
-          <nav className="desktop-nav d-none d-md-block">
+          {/* <nav className="desktop-nav d-none d-md-block">
             <ul className="nav">
               <li className="nav-item">
                 <a href="#home" className="nav-link text-white">
@@ -38,7 +38,7 @@ function Header() {
                 </a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
 
           {/* "Request Audit" Button Always Visible */}
           <a href="#" className="btn register-btn text-white">
