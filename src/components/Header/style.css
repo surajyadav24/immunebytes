@@ -38,14 +38,13 @@ a.register-btn {
 
 header .nav-link {
   border-bottom: 1px solid #000;
-  padding: 0px;
-  padding-bottom: 8px;
   color: #fff;
-  font-family: "Arame-Thin";
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-family: 'Arame-Bold';
   font-weight: 400;
-  transition: 0.2s ease-in;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 0 0 8px;
+  transition: .2s ease-in;
 }
 
 header .nav-item .nav-link:hover {
@@ -93,7 +92,8 @@ a.btn.register-btn.d-none.d-md-inline-block {
   display: none !important;
 }
 .logo{
-  min-width: 216px;
+  width: 28%;
+  min-width: 285px;
 }
 
 /* Responsive Design */

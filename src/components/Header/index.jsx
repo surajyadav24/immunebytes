@@ -20,7 +20,7 @@ function Header() {
             <ul className="nav">
               <li className="nav-item">
                 <a href="#home" className="nav-link text-white">
-                  Home
+             Services
                 </a>
               </li>
               <li className="nav-item">
