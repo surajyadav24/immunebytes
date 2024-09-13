@@ -91,22 +91,22 @@ border: none;
 .right-serv::after {
   content: url('../../assets/images/first-audit.svg');
   position: absolute;
-  top: -93px !important;
+  top: -126px !important;
   left: 71px;
   right: 0;
-  transform: scale(0.5) !important ;
+  transform: scale(0.62) !important ;
   opacity: 0; /* Initially hidden */
   transition: opacity 0.3s ease-out, top 1s ease-out;
 }
 .service-2 .right-serv::after{
   content: url('../../assets/images/second-audit.svg');
-  left: 61px;
-  top: -66px !important;
+  left: 65px;
+  top: -78px !important;
 }
 .service-3 .right-serv::after{
   content: url('../../assets/images/third-audit.svg');
-  left: 67px;
-  top: -37px !important;
+  left: 71px;
+  top: -48px !important;
 }
 
 /* Hover state to trigger animation */

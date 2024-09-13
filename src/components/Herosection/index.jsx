@@ -19,8 +19,8 @@ const Herosection = () => {
           <div className="col-md-6 col-sm-6 d-flex justify-content-end">
            
     <div className="left-box">
-<img src={leftboximg
-} alt="" />
+{/* <img src={leftboximg
+} alt="" /> */}
     </div>
           </div>
   

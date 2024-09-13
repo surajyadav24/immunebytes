@@ -17,10 +17,22 @@ import img10 from "../../assets/images/img11.svg";
 import img11 from "../../assets/images/scallop-ramp 1.png";
 import img14 from "../../assets/images/img14.svg";
 import img13 from "../../assets/images/Group 24.svg";
+import stader from '../../assets/images/sliderlogo/staderlogo.svg'
+import csigma from '../../assets/images/sliderlogo/Csigma.png'
+import ethernity from '../../assets/images/sliderlogo/ethernity.svg'
+// import bird from '../../assets/images/sliderlogo/bird.svg'
+import farmsent from '../../assets/images/sliderlogo/farmsent.svg'
+import retreeb from '../../assets/images/sliderlogo/retreeb.svg'
+import sporticon from '../../assets/images/sliderlogo/sports-icon.svg'
+import thron from '../../assets/images/sliderlogo/thron.jpeg'
+import wam from '../../assets/images/sliderlogo/wam.png'
+
+
 
 // Define image arrays for each slider
-const logos1 = [img1, img2, img3, img5, img6];
-const logos2 = [img7, img8, img9, img10, img11, img14, img13];
+const logos1 = [img1, img2, img3, img5, img6,img7,stader];
+const logos2 = [img7, img8, img9, img10, img11, img14, img13,csigma, ethernity];
+const logos3 = [ , farmsent, retreeb,sporticon,thron,wam];
 
 const LogoSliders = () => {
     useEffect(() => {
@@ -110,7 +122,7 @@ const LogoSliders = () => {
             <div className="splide" id="splide3">
                 <div className="splide__track">
                     <ul className="splide__list">
-                        {logos2.map((logo, index) => (
+                        {logos3.map((logo, index) => (
                             <li key={index} className="splide__slide">
                                 <img src={logo} alt={`Logo ${index - 1}`} />
                             </li>

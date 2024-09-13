@@ -25,11 +25,10 @@ const Footer = () => {
               <li><a href="#">Request audit</a></li>
             </ul>
             <div className="social-icons">
-              <a href="#"><i className="fab fa-facebook-f"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-linkedin-in"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
-              <a href="#"><i className="fab fa-github"></i></a>
+              <a href="https://www.facebook.com/ImmuneBytes"><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/company/immunebytes"><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/immunebytes/"><i className="fab fa-instagram"></i></a>
+              <a href="https://github.com/ImmuneBytes"><i className="fab fa-github"></i></a>
             </div>
           </div>
 
@@ -62,11 +61,10 @@ const Footer = () => {
           </div>
 
           <div className="social-icons mobile-social">
-              <a href="#"><i className="fab fa-facebook-f"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-linkedin-in"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
-              <a href="#"><i className="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/ImmuneBytes"><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/company/immunebytes"><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/immunebytes/"><i className="fab fa-instagram"></i></a>
+              <a href="https://github.com/ImmuneBytes"><i className="fab fa-github"></i></a>
             </div>
 
           <div className="col-12 footer-bottom  d-flex justify-content-between align-items-center">

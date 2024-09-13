@@ -7,7 +7,10 @@
     
     color:#F9116C ;
 }
-
+.left-box{
+    background: url(../../assets/images/left-box.svg) no-repeat center center / contain;
+    min-height: 500px;
+}
 .hero-wrapper p {
     max-width: 70%;
     color: #FFF;

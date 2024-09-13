@@ -16,14 +16,14 @@ const Community = () => {
     <div className="telegram-btn">
 <button className='telegram'>
 <img src={twitter} alt="" />
-    <a href="#">
+    <a href="https://t.me/immunebytes">
 Join Telegram</a></button>
     </div>
 
     <div className="x-btn">
     <button className='twit-x'>
         <img src={telegram} alt="" />
-        <a href="#">
+        <a href="https://x.com/ImmuneBytes">
     Join X</a></button>
     </div>
 </div>
