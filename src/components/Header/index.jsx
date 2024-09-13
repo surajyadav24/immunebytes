@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Logo from '../../assets/images/logos/Logo.svg'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false); // State to track menu open/close
@@ -13,7 +14,9 @@ function Header() {
     <>
       <header className="text-white p-3">
         <div className="container d-flex justify-content-between align-items-center p-0">
-          <div className="h3 font-weight-bold logo">Your Logo</div>
+          <div className="h3 font-weight-bold logo">
+            <img src={Logo} alt="" />
+          </div>
 
           <nav className="desktop-nav d-none d-md-block">
             <ul className="nav">
