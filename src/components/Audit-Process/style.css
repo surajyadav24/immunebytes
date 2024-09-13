@@ -1,0 +1,93 @@
+.first-audit {
+    gap: 20px 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-audit .item {
+    max-width: 20%;
+    position: relative !important;
+}
+.first-audit .item:nth-child(1)::after{
+    content: url('../../assets/images/audit-process/au-bg1.svg');
+        position: absolute;
+        top: -65px;
+        left: 23px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+.first-audit .item:nth-child(2)::after{
+    content: url('../../assets/images/audit-process/au-bg2.svg');
+        position: absolute;
+        top: -65px;
+        left: 23px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+.first-audit .item:nth-child(3)::after{
+    content: url('../../assets/images/audit-process/au-bg3.svg');
+        position: absolute;
+        top: -65px;
+        left: 23px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+.first-audit .item:nth-child(4)::after{
+    content: url('../../assets/images/audit-process/au-bg4.svg');
+        position: absolute;
+        top: -65px;
+        left: 23px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+.first-audit .item:nth-child(5)::after{
+    content: url('../../assets/images/audit-process/au-bg5.svg');
+        position: absolute;
+        top: -65px;
+        left: 23px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+.first-audit .item:nth-child(6)::after{
+    content: url('../../assets/images/audit-process/au-bg6.svg');
+        position: absolute;
+        top: -65px;
+        left: 23px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+.first-audit .item:nth-child(7)::after{
+    content: url('../../assets/images/audit-process/au-bg7.svg');
+        position: absolute;
+        top: -65px;
+        left: 23px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+
+    .first-audit .item:hover::after{
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+    }
+    .audit-process-container {
+        background: url(../../assets/images/audit-process/dis-bg.svg) no-repeat center center / contain;
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+            min-height: 350px;
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+      .audit-process-container h3 {
+        color: #fff;
+    }
+      .audit-process-container p {
+        color: #fff;
+    }
