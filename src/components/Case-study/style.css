@@ -89,8 +89,8 @@ border: none;
 .right-serv::after {
   content: url('../../assets/images/first-audit.svg');
   position: absolute;
-  top: -118px !important;
-  left: 103px;
+  top: -93px !important;
+  left: 71px;
   right: 0;
   transform: scale(0.5) !important ;
   opacity: 0; /* Initially hidden */
@@ -98,14 +98,13 @@ border: none;
 }
 .service-2 .right-serv::after{
   content: url('../../assets/images/second-audit.svg');
-  left: 106px;
-  top: -87px !important;
-
+  left: 61px;
+  top: -66px !important;
 }
 .service-3 .right-serv::after{
   content: url('../../assets/images/third-audit.svg');
-  left: 113px;
-  top: -54px !important;
+  left: 67px;
+  top: -37px !important;
 }
 
 /* Hover state to trigger animation */
