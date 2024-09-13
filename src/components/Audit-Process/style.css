@@ -91,3 +91,13 @@
       .audit-process-container p {
         color: #fff;
     }
+
+    @media (min-width: 1381px) and (max-width: 1440px) {
+        .first-audit {
+            gap: 20px 155px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
