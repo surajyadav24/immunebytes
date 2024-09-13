@@ -47,7 +47,7 @@ transform: scale(0.5);
     align-items: center;
 }
 .service-img img{
-    width: 60%;
+    width: 75%;
 }
 @media (max-width:768px) {
     .left-serv{

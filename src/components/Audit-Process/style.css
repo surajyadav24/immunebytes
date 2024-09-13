@@ -18,14 +18,6 @@
         opacity: 0;
     }
 .first-audit .item:nth-child(2)::after{
-    content: url('../../assets/images/audit-process/au-bg2.svg');
-        position: absolute;
-        top: -77px;
-        left: 2px;
-        transform: scale(0.75);
-        opacity: 0;
-    }
-.first-audit .item:nth-child(3)::after{
     content: url('../../assets/images/audit-process/au-bg3.svg');
         position: absolute;
         top: -77px;
@@ -33,15 +25,7 @@
         transform: scale(0.75);
         opacity: 0;
     }
-.first-audit .item:nth-child(4)::after{
-    content: url('../../assets/images/audit-process/au-bg4.svg');
-        position: absolute;
-        top: -77px;
-        left: 2px;
-        transform: scale(0.75);
-        opacity: 0;
-    }
-.first-audit .item:nth-child(5)::after{
+.first-audit .item:nth-child(3)::after{
     content: url('../../assets/images/audit-process/au-bg5.svg');
         position: absolute;
         top: -77px;
@@ -49,8 +33,24 @@
         transform: scale(0.75);
         opacity: 0;
     }
+.first-audit .item:nth-child(4)::after{
+    content: url('../../assets/images/audit-process/au-bg7.svg');
+        position: absolute;
+        top: -77px;
+        left: 2px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+.first-audit .item:nth-child(5)::after{
+    content: url('../../assets/images/audit-process/au-bg2.svg');
+        position: absolute;
+        top: -77px;
+        left: 2px;
+        transform: scale(0.75);
+        opacity: 0;
+    }
 .first-audit .item:nth-child(6)::after{
-    content: url('../../assets/images/audit-process/au-bg6.svg');
+    content: url('../../assets/images/audit-process/au-bg4.svg');
         position: absolute;
         top: -77px;
         left: 2px;
@@ -58,7 +58,7 @@
         opacity: 0;
     }
 .first-audit .item:nth-child(7)::after{
-    content: url('../../assets/images/audit-process/au-bg7.svg');
+    content: url('../../assets/images/audit-process/au-bg6.svg');
         position: absolute;
         top: -77px;
         left: 2px;
