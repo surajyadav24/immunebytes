@@ -14,9 +14,7 @@ function Header() {
     <>
       <header className="text-white p-3">
         <div className="container d-flex justify-content-between align-items-center p-0">
-          <div className="h3 font-weight-bold logo">
-            <img src={Logo} alt="" />
-          </div>
+          
 
           <nav className="desktop-nav d-none d-md-block">
             <ul className="nav">
@@ -30,6 +28,16 @@ function Header() {
                  Portfolio
                 </a>
               </li>
+            
+            </ul>
+          </nav>
+          <div className="h3 font-weight-bold logo">
+            <img src={Logo} alt="" />
+          </div>
+          <nav className="desktop-nav d-none d-md-block">
+            <ul className="nav">
+      
+           
               <li className="nav-item">
                 <a href="#services" className="nav-link text-white">
                   About Us
@@ -44,9 +52,9 @@ function Header() {
           </nav>
 
           {/* "Request Audit" Button Always Visible */}
-          <a href="#" className="btn register-btn text-white">
+          {/* <a href="#" className="btn register-btn text-white">
             Request Audit
-          </a>
+          </a> */}
 
           {/* Hamburger Menu for Mobile & Tablet */}
           <div className="hamburger d-md-none" onClick={toggleMenu}>
