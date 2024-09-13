@@ -48,7 +48,7 @@ const LogoSliders = () => {
             focus  : 'center',
             perPage: 4,
             autoScroll: {
-                speed: -1,
+                speed: -2,
                 pauseOnHover: true,
             },
             breakpoints: {
@@ -64,7 +64,7 @@ const LogoSliders = () => {
             focus  : 'center',
             perPage: 4,
             autoScroll: {
-                speed: 3,
+                speed: 2,
                 pauseOnHover: true,
             },
             breakpoints: {
