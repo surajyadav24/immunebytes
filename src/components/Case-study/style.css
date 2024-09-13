@@ -82,7 +82,9 @@ border: none;
   position: relative;
 }
 .services-component .row {
+  min-height: 300px;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* Styles for the ::after pseudo-element */
