@@ -11,21 +11,21 @@ const TestimonialSlider = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'John Doe',
+      name: 'Yog Shrusti, Farmsent, Co-Founder & CEO',
       image: 'https://via.placeholder.com/100',
-      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
+      quote: "Robots can do audits, but the personal touch makes a difference. That's why we love Immunebytes! Not only do they do top-class audits, but they also take the time to understand our project and why certain things are done in specific ways. They take the time to ensure we feel heard, which shows in their work."
     },
     {
       id: 2,
-      name: 'Jane Smith',
+      name: 'Dheeraj Borra, Stader Labs, Co-Founder',
       image: 'https://via.placeholder.com/100',
-      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
+      quote: "ImmuneBytes demonstrated the perfect blend of expertise, commitment, and accountability, resulting in an audit that surpassed expectations. Their thorough approach and dedication ensured a high-quality outcome, reflecting their capability and professionalism in delivering exceptional service."
     },
     {
       id: 3,
-      name: 'Mike Johnson',
+      name: 'Mac P, Ethernity, Chief Engineer',
       image: 'https://via.placeholder.com/100',
-      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
+      quote: 'We are thoroughly impressed by their team, who left no scope for a communication gap and provided a quick turnaround time. They took up each requirement with utmost detail and acted on it. It was a pleasing experience to work with you. Looking to working with you guys again!'
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ const TestimonialSlider = () => {
         grabCursor={true}
         loop={true}
         autoplay={{
-          delay: 5000,
+          delay: 500000,
           disableOnInteraction: false,
         }}
         breakpoints={{

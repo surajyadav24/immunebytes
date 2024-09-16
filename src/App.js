@@ -69,29 +69,18 @@ function App() {
       <Servicescomponent className="service-1"
         imageSrc={serviceimg}
         heading="Smart Contract Audit"
-        paragraphtext="Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor
-incididunt ut labore
-et dolore"
+        paragraphtext="An extensive evaluation of your smart contract code’s security, business functionality, and adherence to industry-standards."
       />
       <Servicescomponent className="service-2"
         imageSrc={serviceimg3}
         heading="Blockchain Security Service"
-        paragraphtext="Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor
-incididunt ut labore
-et dolore"
+        paragraphtext="A thorough assessment of your blockchain’s security posture, encompassing smart contracts, architecture, and development framework.
+"
       />
       <Servicescomponent className='service-3'
         imageSrc={serviceimg2}
         heading="Penetration Testing"
-        paragraphtext="Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor
-incididunt ut labore
-et dolore"
+        paragraphtext="In light of increasing traditional security breaches impacting Web3, ImmuneBytes offers penetration testing for decentralised applications."
       />
 </div>
 

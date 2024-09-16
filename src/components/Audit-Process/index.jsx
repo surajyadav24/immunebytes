@@ -5,19 +5,24 @@ import audit3 from "../../assets/images/audit-process/audit3.svg";
 import audit4 from "../../assets/images/audit-process/audit-4.svg";
 import audit5 from "../../assets/images/audit-process/audit-5.svg";
 import audit6 from "../../assets/images/audit-process/audit-6.svg";
-import audit7 from "../../assets/images/audit-process/audit7.svg";
+import audit7 from "../../assets/images/audit-process/audit7.svg";import auditdis from "../../assets/images/audit-process/audi-dis-1.svg";
+import auditdis2 from "../../assets/images/audit-process/audi-dis-2.svg";
+import auditdis3 from "../../assets/images/audit-process/audi-dis-3.svg";
+import auditdis4 from "../../assets/images/audit-process/audi-dis-4.svg";
+import auditdis5 from "../../assets/images/audit-process/audi-dis-5.svg";
+import auditdis6 from "../../assets/images/audit-process/audi-dis-6.svg";
 import "./style.css";
 
 const AuditProcess = () => {
   // Data for headings and descriptions
   const data = [
-    { heading: "Onboarding", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard " },
-    { heading: "Audit Process 2", description: "Description for Audit 2" },
-    { heading: "Audit Process 3", description: "Description for Audit 3" },
-    { heading: "Audit Process 4", description: "Description for Audit 4" },
-    { heading: "Audit Process 5", description: "Description for Audit 5" },
-    { heading: "Audit Process 6", description: "Description for Audit 6" },
-    { heading: "Audit Process 7", description: "Description for Audit 7" },
+    { heading: "Onboarding", description: "Kick off the process with a seamless onboarding experience tailored to your project's needs.", imgsrc:auditdis },
+    { heading: "Audit Initiation", description: "Launch the audit process, including a comprehensive manual as well as automated review of your codebase." , imgsrc:auditdis2},
+    { heading: "Initial Audit Report", description: "Receive an initial report outlining identified vulnerabilities, along with their severity, resolution and areas for improvement.", imgsrc:auditdis3 },
+    { heading: "Final Audit Report", description: "Obtain a detailed final report confirming the resolution of vulnerabilities and the security posture of your project.",imgsrc:auditdis4 },
+    { heading: "Requirement Gathering", description: "Collaborate to gather essential requirements, finalise commit, delivery date and establish a clear understanding of your objectives..",imgsrc:auditdis5 },
+    { heading: "Initial Audit Report", description: "Receive an initial report outlining identified vulnerabilities, along with their severity, resolution and areas for improvement.",imgsrc:auditdis6 },
+
   ];
 
   // Initialize state with the first item's content
@@ -54,13 +59,7 @@ const AuditProcess = () => {
                 <img src={audit3} alt="Audit 3" />
               </div>
               {/* Fourth item */}
-              <div
-                className="item"
-                onMouseEnter={() => setContent(data[3])}
-                onMouseLeave={() => setContent(data[0])}
-              >
-                <img src={audit4} alt="Audit 4" />
-              </div>
+              
               {/* Fifth item */}
               <div
                 className="item"
@@ -80,10 +79,10 @@ const AuditProcess = () => {
               {/* Seventh item */}
               <div
                 className="item"
-                onMouseEnter={() => setContent(data[6])}
+                onMouseEnter={() => setContent(data[3])}
                 onMouseLeave={() => setContent(data[0])}
               >
-                <img src={audit7} alt="Audit 7" />
+                <img src={audit4} alt="Audit 4" />
               </div>
             </div>
 
@@ -91,6 +90,8 @@ const AuditProcess = () => {
             <div className="audit-process-container">
               <h3>{content.heading}</h3>
               <p>{content.description}</p>
+
+        <img src= {content.imgsrc} alt="" />
             </div>
           </div>
         </div>

@@ -1,67 +1,70 @@
 .first-audit {
-    gap: 20px 99px;
+    gap: 0px 96px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
+.first-audit .item:nth-child(4) {
+    margin-left: 181px;
+}
 .first-audit .item {
-    max-width: 198px;
+    max-width: 225px;
     position: relative !important;
 }
 .first-audit .item:nth-child(1)::after{
     content: url('../../assets/images/audit-process/au-bg1.svg');
         position: absolute;
-        top: -64px;
-        left: 2px;
+        top: -115px;
+        left: 5px;
         transform: scale(0.75);
         opacity: 0;
     }
 .first-audit .item:nth-child(2)::after{
     content: url('../../assets/images/audit-process/au-bg3.svg');
         position: absolute;
-        top: -64px;
-        left: 2px;
+        top: -115px;
+        left: 5px;
         transform: scale(0.75);
         opacity: 0;
     }
 .first-audit .item:nth-child(3)::after{
     content: url('../../assets/images/audit-process/au-bg5.svg');
         position: absolute;
-        top: -64px;
-        left: 2px;
+        top: -115px;
+        left: 5px;
         transform: scale(0.75);
         opacity: 0;
     }
 .first-audit .item:nth-child(4)::after{
-    content: url('../../assets/images/audit-process/au-bg7.svg');
+    content: url('../../assets/images/audit-process/au-bg2.svg');
         position: absolute;
-        top: -64px;
-        left: 2px;
+        top: -115px;
+        left: 5px;
         transform: scale(0.75);
         opacity: 0;
     }
 .first-audit .item:nth-child(5)::after{
-    content: url('../../assets/images/audit-process/au-bg2.svg');
+    content: url('../../assets/images/audit-process/au-bg4.svg');
         position: absolute;
-        top: -64px;
-        left: 2px;
+        top: -115px;
+        left: 5px;
         transform: scale(0.75);
         opacity: 0;
     }
 .first-audit .item:nth-child(6)::after{
-    content: url('../../assets/images/audit-process/au-bg4.svg');
+    content: url('../../assets/images/audit-process/au-bg7.svg');
         position: absolute;
-        top: -64px;
-        left: 2px;
+        top: -115px;
+        left: 5px;
         transform: scale(0.75);
         opacity: 0;
     }
 .first-audit .item:nth-child(7)::after{
     content: url('../../assets/images/audit-process/au-bg6.svg');
         position: absolute;
-        top: -64px;
-        left: 2px;
+        top: -115px;
+        left: 5px;
         transform: scale(0.75);
         opacity: 0;
     }
@@ -70,31 +73,35 @@
         opacity: 1;
         transition: all 0.5s ease-in-out;
     }
+    .audit-process-container img {
+        position: absolute;
+        top: -30px;
+    }
     .audit-process-container {
-        background: url(../../assets/images/audit-process/dis-bg.svg) no-repeat center center / contain;
-            background-color: transparent;
-            padding: 50px;
-            border-radius: 8px;
-            margin-top: 20px;
-            text-align: center;
-            min-height: 350px;
-            margin-top: 20px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
+        position: relative;
+        padding: 50px;
+        border-radius: 8px;
+        text-align: center;
+        min-height: 350px;
+        margin-top: 0px;
+        padding-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
       .audit-process-container h3 {
         color: #fff;
     }
-      .audit-process-container p {
+    .audit-process-container p {
+        max-width: 700px;
         color: #fff;
     }
 
     @media (min-width: 1381px) and (max-width: 1440px) {
         .first-audit {
-            gap: 20px 155px;
+            gap: 0px 155px;
             display: flex;
             justify-content: center;
             align-items: center;

@@ -20,19 +20,19 @@ import img13 from "../../assets/images/Group 24.svg";
 import stader from '../../assets/images/sliderlogo/staderlogo.svg'
 import csigma from '../../assets/images/sliderlogo/Csigma.png'
 import ethernity from '../../assets/images/sliderlogo/ethernity.svg'
-// import bird from '../../assets/images/sliderlogo/bird.svg'
+import bird from '../../assets/images/sliderlogo/bird.svg'
 import farmsent from '../../assets/images/sliderlogo/farmsent.svg'
 import retreeb from '../../assets/images/sliderlogo/retreeb.svg'
 import sporticon from '../../assets/images/sliderlogo/sports-icon.svg'
-import thron from '../../assets/images/sliderlogo/thron.jpeg'
-import wam from '../../assets/images/sliderlogo/wam.png'
+import thron from '../../assets/images/sliderlogo/Thron.svg'
+import wam from '../../assets/images/sliderlogo/wam.svg'
 
 
 
 // Define image arrays for each slider
-const logos1 = [img1, img2, img3, img5, img6,img7,stader];
+const logos1 = [img1, img2, img3, img5, img6,stader];
 const logos2 = [img7, img8, img9, img10, img11, img14, img13,csigma, ethernity];
-const logos3 = [ , farmsent, retreeb,sporticon,thron,wam];
+const logos3 = [ , farmsent, retreeb,sporticon,thron,wam,bird];
 
 const LogoSliders = () => {
     useEffect(() => {

@@ -9,6 +9,7 @@
 .splide__slide img {
     width: 100%;
     height: auto;
+    max-height: 30px;
     max-width: 120px; /* Adjust based on your logo size */
     transition: transform 0.3s ease-in-out;
 }
