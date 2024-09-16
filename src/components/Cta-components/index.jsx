@@ -6,7 +6,8 @@ const Cta = () => {
   <>
   <div className="container">
 <div className="cta-wrapper">
-  <h2>Secure through audits.</h2>
+  <h2> Leading the Wave of Web3 Security
+  </h2>
   <PrimaryBtn  text="Request Audit"/>
 </div>
 </div>

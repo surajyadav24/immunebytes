@@ -10,7 +10,7 @@
 }
 .service-discription p {
     color: #fff;
-    max-width: 400px;
+    max-width: 470px;
     font-family: RobotoMono-Regular;
     font-size: 18px;
     font-weight: 400;
@@ -135,6 +135,9 @@ transform: scale(0.5);
 
 .service-discription {
     padding-bottom: 40px;
+}
+.service-img img{
+    width: 200px;
 }
 
 }

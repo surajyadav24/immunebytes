@@ -60,19 +60,19 @@ border: none;
 }
 .card-bg-4 
 .case-study-card{
-  background: url('../../assets/images/cards/card-bg-1.svg' )no-repeat center center / contain;
+  background: url('../../assets/images/cards/card-bg-4.svg' )no-repeat center center / contain;
 }
 .card-bg-1 button{
-  background: url('../../assets/images/btn-bg2.svg' )no-repeat center center / contain;
+  background: url('../../assets/images/btn-1bg.svg' )no-repeat center center / contain;
 }
 .card-bg-2 button{
-  background: url('../../assets/images/btn-3bg.svg' )no-repeat center center / contain;
+  background: url('../../assets/images/btn-bg2.svg' )no-repeat center center / contain;
 }
 .card-bg-3 button{
-  background: url('../../assets/images/btn-4bg.svg' )no-repeat center center / contain;
+  background: url('../../assets/images/btn-3bg.svg' )no-repeat center center / contain;
 }
 .card-bg-4 button{
-  background: url('../../assets/images/btn-1bg.svg' )no-repeat center center / contain;
+  background: url('../../assets/images/btn-4bg.svg' )no-repeat center center / contain;
 }
 
 

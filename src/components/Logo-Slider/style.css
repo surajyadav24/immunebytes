@@ -42,7 +42,7 @@ ul.splide__pagination.splide__pagination--ltr {
     }
     .splide__slide{
         display: flex;
-        padding: 5px 5px;
+        padding: 15px 5px;
         margin: 7px;
         background-color: #D9D9D91A;
         border-radius: 20px;

@@ -6,39 +6,41 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay'; // Import Autoplay styles
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-
+import testimonial1 from '../../assets/images/testimonial/testimonial (4).png'
+import testimonial2 from '../../assets/images/testimonial/testimonial (2).png'
+import testimonial3 from '../../assets/images/testimonial/testimonial (1).png'
+import testimonial4 from '../../assets/images/testimonial/testimonial (3).png'
 const TestimonialSlider = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Yog Shrusti, Farmsent, Co-Founder & CEO',
-      image: 'https://via.placeholder.com/100',
-      quote: "Robots can do audits, but the personal touch makes a difference. That's why we love Immunebytes! Not only do they do top-class audits, but they also take the time to understand our project and why certain things are done in specific ways. They take the time to ensure we feel heard, which shows in their work."
-    },
-    {
-      id: 2,
-      name: 'Dheeraj Borra, Stader Labs, Co-Founder',
-      image: 'https://via.placeholder.com/100',
+      name: 'Dheeraj Borra',
+      designation:"Stader Labs, Co-Founder",
+      image:testimonial1,
       quote: "ImmuneBytes demonstrated the perfect blend of expertise, commitment, and accountability, resulting in an audit that surpassed expectations. Their thorough approach and dedication ensured a high-quality outcome, reflecting their capability and professionalism in delivering exceptional service."
     },
     {
+      id: 2,
+      name: 'Yog Shrusti',
+      designation:"Farmsent, Co-Founder & CEO",
+      image: testimonial2,
+      quote: "Robots can do audits, but the personal touch makes a difference. That's why we love Immunebytes! Not only do they do top-class audits, but they also take the time to understand our project and why certain things are done in specific ways. They take the time to ensure we feel heard, which shows in their work."
+    },
+    {
       id: 3,
-      name: 'Mac P, Ethernity, Chief Engineer',
-      image: 'https://via.placeholder.com/100',
+      name: 'Mac P,',
+      designation:" Ethernity, Chief Engineer",
+      image:testimonial3 ,
       quote: 'We are thoroughly impressed by their team, who left no scope for a communication gap and provided a quick turnaround time. They took up each requirement with utmost detail and acted on it. It was a pleasing experience to work with you. Looking to working with you guys again!'
     },
     {
       id: 4,
-      name: 'Sarah Williams',
-      image: 'https://via.placeholder.com/100',
-      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
+      name: 'Aruje Jahan',
+      designation:"Lokr, Product Owner",
+      image: testimonial4,
+      quote: "We partnered with ImmuneBytes for a security audit of our products. Their expertise and professionalism instilled confidence throughout the process. They promptly addressed our questions, and their thorough analysis significantly enhanced our project's security, safeguarding our users' assets. We highly recommend ImmuneBytes and look forward to future collaborations."
     },
-    {
-      id: 5,
-      name: 'David Brown',
-      image: 'https://via.placeholder.com/100',
-      quote: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry...'
-    },
+    
   ];
 
   return (
@@ -51,7 +53,7 @@ const TestimonialSlider = () => {
         grabCursor={true}
         loop={true}
         autoplay={{
-          delay: 500000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         breakpoints={{
@@ -77,6 +79,7 @@ const TestimonialSlider = () => {
                 style={{ borderRadius: '50%', marginBottom: '10px' }} 
               />
               <h3>{testimonial.name}</h3>
+            <h5>{testimonial.designation}</h5>
               <p>"{testimonial.quote}"</p>
             </div>
           </SwiperSlide>

@@ -48,13 +48,19 @@
     display: none !important;
 }
 .testimonial-slider .swiper-slide p{
-font-size: 16px;
+font-size: 12px;
 font-weight: 500;
-line-height: 25px;
+line-height: 20px;
 text-align: center;
 font-family: RobotoMono-Regular;
 color: #F9116C;
+padding-top: 10px;
 }
+.testimonial-slider .swiper-slide h5{
+    font-size: 14px;
+    font-family: RobotoMono-Regular;
+}
+
 
 @media (max-width:425px) {
     .testimonial-slider .swiper-slide.swiper-slide-active{

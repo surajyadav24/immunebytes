@@ -1,5 +1,5 @@
 .first-audit {
-    gap: 0px 96px;
+    gap: 0px 112px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -101,10 +101,100 @@
 
     @media (min-width: 1381px) and (max-width: 1440px) {
         .first-audit {
-            gap: 0px 155px;
+            gap: 0px 200px;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             flex-wrap: wrap;
         }
     }
+
+    @media (max-width: 425px) {
+        .first-audit {
+            gap: 20px 54px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        .first-audit .item {
+            max-width: 72px;
+            position: relative !important;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+    
+        /* Ensure hover effect works individually */
+        .first-audit .item:hover {
+            transform: scale(1.1); /* Scale slightly more on hover */
+            z-index: 10;
+        }
+    
+        /* Keep non-hovered items slightly faded */
+        .first-audit .item:not(:hover) {
+            opacity: 0.8;
+        }
+    
+        /* Adjust the 4th item margin */
+        .first-audit .item:nth-child(4) {
+            margin-left: 53px;
+        }
+    
+        /* Process container adjustments */
+        .audit-process-container {
+            position: relative;
+            padding: 12px 0px;
+            min-height: 250px;
+        }
+    
+        .audit-process-container img {
+            position: absolute;
+            top: 60px;
+        }
+    
+        .audit-process-container p {
+            max-width: 277px;
+            color: #fff;
+            font-size: 12px;
+        }
+        .first-audit .item:nth-child(1)::after {
+            top: -138px;
+            left: -69px;
+            transform: scale(0.3);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(2)::after {
+            top: -138px;
+            left: -69px;
+            transform: scale(0.3);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(3)::after {
+            top: -138px;
+            left: -69px;
+            transform: scale(0.3);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(4)::after {
+            top: -138px;
+            left: -69px;
+            transform: scale(0.3);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(5)::after {
+            top: -138px;
+            left: -69px;
+            transform: scale(0.3);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(6)::after {
+            top: -138px;
+            left: -69px;
+            transform: scale(0.3);
+            opacity: 1;
+        }
+        .services-wrapper h1.text-center.py-5.pb-4.heading-h1 {
+            padding-bottom: 51px !important;
+        }
+    }
+    

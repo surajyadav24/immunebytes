@@ -9,7 +9,7 @@
 }
 .left-box{
     background: url(../../assets/images/left-box.svg) no-repeat center center / contain;
-    min-height: 500px;
+
 }
 .hero-wrapper p {
     max-width: 70%;
@@ -25,8 +25,8 @@
     margin-bottom: 18px;
 }
 .left-box,.right-box{
-    width:75%;
-
+    width:100%;
+    min-height: 100vh;
 position: relative;
 }
 
