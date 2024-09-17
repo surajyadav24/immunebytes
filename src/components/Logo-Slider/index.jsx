@@ -95,7 +95,7 @@ const LogoSliders = () => {
     }, []);
 
     return (
-        <div>
+        <div className='logo-wrapper'>
             <div className="splide" id="splide1">
                 <div className="splide__track">
                     <ul className="splide__list">

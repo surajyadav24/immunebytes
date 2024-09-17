@@ -38,6 +38,12 @@ position: relative;
     margin-left: 0px;
 }
 
+.gif-video {
+    position: relative;
+    max-width: 496px;
+    z-index: 99;
+    top: 145px;
+}
 .hero-wrapper .row.align-items-center.py-5 {
     padding: 0px !important;
     justify-content: center;
@@ -48,6 +54,7 @@ position: relative;
         color: #fff;
         font-size: 30px;
     }
+    
     .hero-wrapper p {
         max-width: 80%;
         font-size: 12px;
