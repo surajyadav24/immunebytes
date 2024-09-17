@@ -39,10 +39,15 @@ position: relative;
 }
 
 .gif-video {
-    position: relative;
-    max-width: 496px;
+    margin: 0 auto;
     z-index: 99;
-    top: 145px;
+max-width: 380px;
+}
+.right-box {
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
 }
 .hero-wrapper .row.align-items-center.py-5 {
     padding: 0px !important;
