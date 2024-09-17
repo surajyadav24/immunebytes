@@ -87,6 +87,25 @@
   center / 97%;
   padding: 78px 55px;
 }
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+  .first-clients h2, .sec-clients h2, .third-clients h2 {
+    font-size: 40px;
+
+  }
+  .third-clients h2{
+    padding-left: 34px !important;
+  }
+  .sec-clients ,.first-clients, .third-clients{
+    padding: 45px 55px;
+  }
+  .sec-clients:hover ,.first-clients:hover, .third-clients:hover{
+    padding: 45px 55px;
+  }
+
+}
+
 @media (max-width:768px) {
 
 .clients-5:hover{

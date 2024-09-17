@@ -39,9 +39,17 @@ position: relative;
 }
 
 .gif-video {
-
+    position: absolute;
     z-index: 99;
-max-width: 380px;
+    max-width: 380px;
+    left: 30px;
+}
+.right-box {
+    position: relative;
+    display: flex;
+    margin-left: 0px;
+    justify-content: flex-start;
+    align-items: center;
 }
 .right-box {
     display: flex;
