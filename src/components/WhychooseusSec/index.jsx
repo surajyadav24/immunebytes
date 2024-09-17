@@ -25,7 +25,7 @@ const Whychooseusec = () => {
         <div className="col-lg-4 box-wrap col-md-4">
             <div className="third-clients">
                 <h2>
-                    500k 
+                    20+
              
                     <span>Countries Served</span>
                 </h2>
