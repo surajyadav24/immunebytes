@@ -9,7 +9,7 @@
 }
 .left-box{
     background: url(../../assets/images/left-box.svg) no-repeat center right / contain;
-
+max-width:425px ;
 }
 
 .right-box{
@@ -39,19 +39,27 @@ position: relative;
 }
 
 .gif-video {
+    transform: scale(2);
     position: absolute;
     z-index: 99;
     max-width: 380px;
     left: 30px;
 }
 .right-box {
+    max-width: 425px;
+    overflow: hidden;
     position: relative;
+    justify-content: flex-start;
     display: flex;
     margin-left: 0px;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 .right-box {
+    max-width: 425px;
+    overflow: hidden;
+    position: relative;
+    justify-content: flex-start;
     display: flex;
     margin-left: 0px;
     justify-content: center;
