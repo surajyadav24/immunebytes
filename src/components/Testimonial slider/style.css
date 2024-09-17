@@ -1,5 +1,5 @@
 .testimonial-slider .swiper-slide{
-    padding: 38px;
+    padding: 0px 70px;
     min-height: 500px;
     background:url(../../assets/images/slider/active-slide.svg) no-repeat center center/ contain ;
 }
@@ -47,21 +47,30 @@
 .testimonial-slider .swiper-button-prev , .swiper-button-next  {
     display: none !important;
 }
-.testimonial-slider .swiper-slide p{
-font-size: 12px;
-font-weight: 500;
-line-height: 20px;
-text-align: center;
-font-family: RobotoMono-Regular;
-color: #F9116C;
-padding-top: 10px;
+.testimonial-slider .swiper-slide p {
+    margin: 0 auto;
+    max-width: 340px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    font-family: RobotoMono-Regular;
+    color: #F9116C;
+    padding-top: 25px;
 }
 .testimonial-slider .swiper-slide h5{
     font-size: 14px;
     font-family: RobotoMono-Regular;
 }
+.container.testimonial-slider {
+    padding-top: 49px;
+}
 
-
+@media (max-width:1440px) {
+    .testimonial-slider .swiper-slide{
+        min-height: 520px;
+    }
+}
 @media (max-width:425px) {
     .testimonial-slider .swiper-slide.swiper-slide-active{
         transform: scale(0.9) !important;

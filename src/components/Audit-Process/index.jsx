@@ -46,7 +46,9 @@ const AuditProcess = () => {
   }, [currentIndex]);
 
   return (
-    <div className="container">
+<>
+<div className="audit-wrapper">
+<div className="container">
       <div className="row">
         <div className="col-lg-12">
           <div className="audit-process">
@@ -114,6 +116,8 @@ const AuditProcess = () => {
         </div>
       </div>
     </div>
+</div>
+</>
   );
 };
 

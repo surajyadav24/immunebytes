@@ -98,10 +98,13 @@
         max-width: 700px;
         color: #fff;
     }
+    .audit-wrapper{
+        padding-top: 30px;
+    }
 
     @media (min-width: 1381px) and (max-width: 1440px) {
         .first-audit {
-            gap: 0px 200px;
+            gap: 0px 207px;
             display: flex;
             justify-content: flex-start;
             align-items: center;

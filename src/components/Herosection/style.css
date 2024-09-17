@@ -8,8 +8,12 @@
     color:#F9116C ;
 }
 .left-box{
-    background: url(../../assets/images/left-box.svg) no-repeat center center / contain;
+    background: url(../../assets/images/left-box.svg) no-repeat center right / contain;
 
+}
+
+.right-box{
+    background: url(../../assets/images/right-box.svg) no-repeat center left / contain;
 }
 .hero-wrapper p {
     max-width: 70%;

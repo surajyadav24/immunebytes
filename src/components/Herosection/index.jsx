@@ -26,8 +26,8 @@ const Herosection = () => {
   
           <div className="col-md-6 col-sm-6 d-flex justify-content-start">
           <div className="right-box">
-          <img src={rightboximg
-} alt="" />
+          {/* <img src={rightboximg
+} alt="" /> */}
           </div>
           </div>
         </div>

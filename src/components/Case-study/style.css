@@ -91,8 +91,8 @@ border: none;
 .right-serv::after {
   content: url('../../assets/images/first-audit.svg');
   position: absolute;
-  top: -126px !important;
-  left: 71px;
+  top: -87px !important;
+  left: 66px;
   right: 0;
   transform: scale(0.62) !important ;
   opacity: 0; /* Initially hidden */
@@ -133,6 +133,15 @@ border: none;
 /* Apply animation on hover */
 .services-wrapper .row:hover .right-serv::after {
   animation: revealFromBottom 0.5s ease-out forwards;
+}
+
+
+@media (max-width:1440px) {
+  .case-study-wrapper {
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
 }
 
 @media (max-width:425px) {

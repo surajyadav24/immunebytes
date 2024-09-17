@@ -53,7 +53,7 @@ const TestimonialSlider = () => {
         grabCursor={true}
         loop={true}
         autoplay={{
-          delay: 5000,
+          delay: 500000,
           disableOnInteraction: false,
         }}
         breakpoints={{

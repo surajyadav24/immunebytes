@@ -1,25 +1,32 @@
 .first-clients {
   background: url(../../assets/images/whychoose/first.svg) no-repeat center
-    center / contain;
-  padding: 59px 60px;
+    left / 80%;
+    padding: 78px 55px;
   -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #4F4F4F;
+
+    display: flex;
+    justify-content: start;
 }
 .sec-clients {
-  background: url(../../assets/images/whychoose/sec-clients.svg) no-repeat center center / contain;
-  padding: 59px 60px;
+  background: url(../../assets/images/whychoose/sec-clients.svg) no-repeat center   center / 97%;
+  padding: 78px 55px;
   -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #4F4F4F;
+  display: flex;
+  justify-content: center;
 }
 .third-clients {
   background: url(../../assets/images/whychoose/third-clients.svg) no-repeat center
-    center / contain;
-  padding: 59px 60px;
+    right / 80%;
+    padding: 78px 55px;
   -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #4F4F4F;
+  display: flex;
+  justify-content: end;
 }
 .sec-clients h2{
     text-align: justify !important; 
@@ -28,7 +35,7 @@
 .sec-clients h2,
 .third-clients h2 {
   padding-top: 36px;
-  text-align: center;
+  text-align: start;
   -webkit-text-fill-color: rgba(
     255,
     255,
@@ -54,15 +61,15 @@
 
 .first-clients:hover{
     background: url(../../assets/images/whychoose/bg-first.svg) no-repeat center
-    center / contain;
-    padding: 59px 60px;
+    left / 80%;
+    padding: 78px 55px;
 }
 
 
 .third-clients:hover{
     background: url(../../assets/images/whychoose/bg-third.svg) no-repeat center
-    center / contain;
-    padding: 59px 60px;
+    right / 80%;
+    padding: 78px 55px;
 }
 
 .box-wrap:hover .first-clients h2 {
@@ -77,8 +84,8 @@
 }
 .sec-clients:hover{
   background: url(../../assets/images/whychoose/bg-sec.svg) no-repeat center
-  center / contain;
-  padding: 60px 60px;
+  center / 97%;
+  padding: 78px 55px;
 }
 @media (max-width:768px) {
 
@@ -145,6 +152,7 @@
 
 .first-clients h2, .sec-clients h2, .third-clients h2{
   padding-top: 0px;
+
 }
 .col-lg-4.box-wrap {
   display: flex !important;

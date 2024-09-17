@@ -12,7 +12,7 @@ const Whychooseus = () => {
                 </h2>
             </div>
         </div>
-        <div className="col-lg-4 col-md-6">
+        <div className="col-lg-4 col-md-6 d-flex justify-content-end">
             <div className="clients-5">
             <h2>500k  <br />
                <span> Clients</span>

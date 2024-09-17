@@ -9,7 +9,7 @@ const Whychooseusec = () => {
             <div className="first-clients">
                 <h2>
                     500k 
-                    <span>Clients</span>
+                    <span>Funds Secured</span>
                 </h2>
             </div>
         </div>
@@ -18,7 +18,7 @@ const Whychooseusec = () => {
                 <h2>
                     500k 
                 
-                    <span>Clients</span>
+                    <span>Attacks Prevented</span>
                 </h2>
             </div>
         </div>
@@ -27,7 +27,7 @@ const Whychooseusec = () => {
                 <h2>
                     500k 
              
-                    <span>Clients</span>
+                    <span>Countries Served</span>
                 </h2>
             </div>
         </div>
