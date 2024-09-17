@@ -29,7 +29,8 @@ Join Telegram</a></button>
 </div>
 <div className="secure-audit">
 <h2>
-Secure through audits.
+Stay Ahead of the Security Curve.
+
 </h2>
 </div>
 

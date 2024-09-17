@@ -141,14 +141,14 @@ transform: scale(0.5);
 }
 .service-img {
     display: flex;
-    justify-content: start;
-    min-width: 250px;
+    justify-content: flex-end;
+    min-width: 180px;
 }
 .right-serv::after {
     content: url(http://localhost:3000/static/media/first-audit.749a181….svg);
     position: absolute;
-    top: -92% !important;
-    left: -87px;
+    top: -140px !important;
+    left: 9px;
 }
 .services-component .row {
     padding: 0px 5px;
@@ -158,7 +158,7 @@ transform: scale(0.5);
     flex-wrap: nowrap;
 }
 .services-wrapper .right-serv {
-    max-width: 232px;
+    max-width: 200px !important;
     position: relative;
 }
 

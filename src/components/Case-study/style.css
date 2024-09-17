@@ -199,16 +199,14 @@ border: none;
 }
 .service-2 .right-serv::after{
   content: url('../../assets/images/second-audit.svg') !important;
-  left: -100px;
-
-  top: -68% !important;
+  left: 14px;
+  top: -122px !important;
   opacity: 1 !important;
 }
 .service-3 .right-serv::after{
   content: url('../../assets/images/third-audit.svg');
-  left: -100px;
-
-  top: -43% !important;
+  left: 17px;
+  top: -94px !important;
   opacity: 1 !important;
 }
 .services-component .row {
@@ -218,6 +216,16 @@ border: none;
 }
 
 /* Hover state to trigger animation */
-
-
+.case-study-card {
+  padding: 30px 20px !important;
+  max-height: auto !important;
+  min-height: auto !important;
+}
+.card-bg-3.pt-4 {
+  padding-top: 0px;
+  margin-top: -30px;
+}
+.case-study-wrapper h1.text-center.py-5.pb-4.heading-h1 {
+  padding-top: 30px !important;
+}
 }

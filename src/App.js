@@ -101,10 +101,11 @@ function App() {
 
 <div className="container">
   
+
+<div className=" case-study-wrapper">
 <h1 className="text-center py-5  pb-4 heading-h1">Case Studies</h1>
 
 
-<div className=" case-study-wrapper">
   <div className="row">
 
   <div className="col-lg-6 md-6 col-sm-12">
