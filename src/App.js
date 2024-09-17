@@ -94,7 +94,7 @@ function App() {
 </div>
 
 
-<h1 className="text-center py-5  pb-4 heading-h1">Testimonials</h1>
+<h1 className="text-center py-5  pb-4 heading-h1 testimonial-heading">Testimonials</h1>
 <div className="container testimonial-slider">
 <TestimonialSlider />
 </div>

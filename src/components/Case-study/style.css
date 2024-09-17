@@ -188,9 +188,8 @@ border: none;
 .right-serv::after {
   content: url('../../assets/images/first-audit.svg');
   position: absolute;
-  top: -73% !important;
-  left: -85px;
-
+  top: -135px !important;
+  left: 14px;
   right: 0;
   transform: scale(0.3) !important ;
   opacity: 0; /* Initially hidden */
@@ -227,5 +226,12 @@ border: none;
 }
 .case-study-wrapper h1.text-center.py-5.pb-4.heading-h1 {
   padding-top: 30px !important;
+}
+.case-study-wrapper {
+  padding-top: 0px;
+}
+.testimonial-slider .swiper-wrapper {
+  padding-top: 40px;
+  padding-bottom: 0px;
 }
 }
