@@ -39,7 +39,7 @@ function App() {
       <div className="btn-wrapper">
         <PrimaryBtn text="Book Consultation" />
       </div>
-      <h1 className="text-center py-5  pb-4 heading-h1">Trusted by Partners</h1>
+    
       <LogoSlider />
      
      

@@ -142,6 +142,7 @@ transform: scale(0.5);
 .service-img {
     display: flex;
     justify-content: start;
+    min-width: 250px;
 }
 .right-serv::after {
     content: url(http://localhost:3000/static/media/first-audit.749a181….svg);
@@ -156,5 +157,13 @@ transform: scale(0.5);
     align-items: center;
     flex-wrap: nowrap;
 }
+.services-wrapper .right-serv {
+    max-width: 232px;
+    position: relative;
+}
 
+.services-wrapper h1 {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
 }

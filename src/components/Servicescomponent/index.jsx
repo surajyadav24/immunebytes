@@ -6,6 +6,7 @@ const ServicesComponent = ({ heading, paragraphtext, imageSrc, className }) => {
   return (
     <div className={`services-component ${className}`}>
       <div className="container">
+  
         <div className="row">
           <div className="col-lg-7 md-6 col-sm-6 col-xs-6 left-serv">
             <div className="service-discription">

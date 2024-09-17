@@ -189,7 +189,8 @@ border: none;
   content: url('../../assets/images/first-audit.svg');
   position: absolute;
   top: -73% !important;
-  left: -100px;
+  left: -85px;
+
   right: 0;
   transform: scale(0.3) !important ;
   opacity: 0; /* Initially hidden */
@@ -199,12 +200,14 @@ border: none;
 .service-2 .right-serv::after{
   content: url('../../assets/images/second-audit.svg') !important;
   left: -100px;
+
   top: -68% !important;
   opacity: 1 !important;
 }
 .service-3 .right-serv::after{
   content: url('../../assets/images/third-audit.svg');
   left: -100px;
+
   top: -43% !important;
   opacity: 1 !important;
 }
