@@ -95,11 +95,18 @@ position: relative;
         margin: 0px;
     }
     .left-box, .right-box {
+        min-width: 86vw;
         margin-bottom: 40px;
         width: 100%;
         height: auto;
     }
     .py-5.sm-py-2 {
         padding-bottom: 0px !important;
+    }
+    .gif-video {
+        position: absolute;
+        z-index: 99;
+        max-width: 315px;
+        left: 30px;
     }
 }

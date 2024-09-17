@@ -188,8 +188,8 @@ border: none;
 .right-serv::after {
   content: url('../../assets/images/first-audit.svg');
   position: absolute;
-  top: -92% !important;
-  left: 45px;
+  top: -73% !important;
+  left: -100px;
   right: 0;
   transform: scale(0.3) !important ;
   opacity: 0; /* Initially hidden */
@@ -198,17 +198,21 @@ border: none;
 }
 .service-2 .right-serv::after{
   content: url('../../assets/images/second-audit.svg') !important;
-  left: 40px;
+  left: -100px;
   top: -68% !important;
   opacity: 1 !important;
 }
 .service-3 .right-serv::after{
   content: url('../../assets/images/third-audit.svg');
-  left: 43px;
-  top: -59% !important;
+  left: -100px;
+  top: -43% !important;
   opacity: 1 !important;
 }
-
+.services-component .row {
+  min-height: 220px;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Hover state to trigger animation */
 

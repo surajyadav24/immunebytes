@@ -139,5 +139,22 @@ transform: scale(0.5);
 .service-img img{
     width: 200px;
 }
+.service-img {
+    display: flex;
+    justify-content: start;
+}
+.right-serv::after {
+    content: url(http://localhost:3000/static/media/first-audit.749a181….svg);
+    position: absolute;
+    top: -92% !important;
+    left: -87px;
+}
+.services-component .row {
+    padding: 0px 5px;
+    min-height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
 
 }
