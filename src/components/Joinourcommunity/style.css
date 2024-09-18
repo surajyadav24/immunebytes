@@ -128,19 +128,19 @@ text-align: center;
         color: #fff;
     }
     .btn-section button {
-        margin: 4px 10px !important;
+        margin: 4px 0px !important;
         border: none;
         font-family: RobotoMono-Bold;
         text-decoration: none;
-        min-width: 167px;
+        min-width: 160px;
         min-height: 67px;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 11px 15px;
+        padding: 2px 11px;
         background-color: transparent;
         outline: none;
-        gap: 0px 12px;
+        gap: 0px 7px;
     }
     .btn-section button img {
         max-width: 21px;
@@ -148,7 +148,7 @@ text-align: center;
     .join-wrapper h2 {
         padding: 0px 0px;
         font-family: 'RobotoMono-Bold';
-        font-size: 31px;
+        font-size: 29px;
         line-height: 45px;
         text-transform: uppercase;
         font-weight: 800;

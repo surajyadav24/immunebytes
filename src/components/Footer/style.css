@@ -263,5 +263,7 @@ footer .container-fluid{
   font-size: 30px;
   color: #888282;
 }
-
+footer.footer {
+  padding: 0px 10px;
+}
 }

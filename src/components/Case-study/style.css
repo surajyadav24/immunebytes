@@ -189,7 +189,7 @@ border: none;
   content: url('../../assets/images/first-audit.svg');
   position: absolute;
   top: -135px !important;
-  left: 14px;
+  left: -11px;
   right: 0;
   transform: scale(0.3) !important ;
   opacity: 0; /* Initially hidden */
@@ -198,19 +198,19 @@ border: none;
 }
 .service-2 .right-serv::after{
   content: url('../../assets/images/second-audit.svg') !important;
-  left: 14px;
+  left: -14px;
   top: -122px !important;
   opacity: 1 !important;
 }
 .service-3 .right-serv::after{
   content: url('../../assets/images/third-audit.svg');
-  left: 17px;
+  left: -7px;
   top: -94px !important;
   opacity: 1 !important;
 }
 .services-component .row {
-  min-height: 220px;
-  justify-content: space-between;
+  min-height: 185px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -233,5 +233,9 @@ border: none;
 .testimonial-slider .swiper-wrapper {
   padding-top: 40px;
   padding-bottom: 0px;
+}
+footer .container-fluid {
+  width: 100vw;
+  min-width: 100vw;
 }
 }
