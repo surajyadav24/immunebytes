@@ -8,7 +8,7 @@ const Herosection = () => {
   return (
     <>
     <div className="hero-wrapper">
-    <div className="py-5 sm-py-2 ">
+    <div className="py-5 sm-py-2 hero-wrapper-sub">
       <div className="container">
 
         
