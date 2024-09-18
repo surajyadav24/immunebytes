@@ -125,6 +125,6 @@ position: relative;
         padding-top: 0px  !important;
     }
     .left-box, .right-box{
-        min-height: 60vh;
+        min-height: 65vh;
     }
 }
