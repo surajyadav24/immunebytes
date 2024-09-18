@@ -124,7 +124,7 @@ position: relative;
     .hero-wrapper-sub{
         padding-top: 0px  !important;
     }
-    .hero-wrapper {
-        max-height: 900px !important;
+    .left-box, .right-box{
+        min-height: 60vh;
     }
 }
