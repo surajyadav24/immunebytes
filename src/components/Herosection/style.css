@@ -9,11 +9,12 @@
 }
 .left-box{
     background: url(../../assets/images/left-box.svg) no-repeat center right / contain;
-max-width:425px ;
+max-width:500px ;
 }
 
 .right-box{
     background: url(../../assets/images/right-box.svg) no-repeat center left / contain;
+max-width: 500px;
 }
 .hero-wrapper p {
     max-width: 70%;
@@ -39,7 +40,7 @@ position: relative;
 }
 
 .gif-video {
-    left: 20px;
+    left: 50px;
     transform: scale(2);
     position: absolute;
     z-index: 99;
@@ -47,7 +48,7 @@ position: relative;
    
 }
 .right-box {
-    max-width: 425px;
+    max-width: 500px;
     overflow: hidden;
     position: relative;
     justify-content: flex-start;
@@ -57,7 +58,7 @@ position: relative;
     align-items: center;
 }
 .right-box {
-    max-width: 425px;
+    max-width: 500px;
     overflow: hidden;
     position: relative;
     justify-content: flex-start;
