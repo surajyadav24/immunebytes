@@ -95,6 +95,9 @@ a.btn.register-btn.d-none.d-md-inline-block {
   width: 28%;
   min-width: 285px;
 }
+.h3.font-weight-bold.logo img {
+  max-width: 249px;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {

@@ -31,7 +31,7 @@ const portfolioData = [
 const PortfolioTable = () => {
   const [search, setSearch] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(7);
+  const [itemsPerPage] = useState(9);
   const [selectedItem, setSelectedItem] = useState(null);
 
   // Filter portfolio data based on search input

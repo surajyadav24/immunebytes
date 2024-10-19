@@ -16,9 +16,13 @@ function Header() {
         <div className="container d-flex justify-content-between align-items-center p-0">
           
 
+    
+          <div className="h3 font-weight-bold logo">
+          <a href="/">  <img src={Logo} alt="" /></a>
+          </div>
           <nav className="desktop-nav d-none d-md-block">
             <ul className="nav">
-              <li className="nav-item">
+            <li className="nav-item">
                 <a href="/Home" className="nav-link text-white">
              Services
                 </a>
@@ -28,15 +32,6 @@ function Header() {
                  Portfolio
                 </a>
               </li>
-            
-            </ul>
-          </nav>
-          <div className="h3 font-weight-bold logo">
-          <a href="/">  <img src={Logo} alt="" /></a>
-          </div>
-          <nav className="desktop-nav d-none d-md-block">
-            <ul className="nav">
-      
            
               <li className="nav-item">
                 <a href="/about-us" className="nav-link text-white">
@@ -52,9 +47,9 @@ function Header() {
           </nav>
 
           {/* "Request Audit" Button Always Visible */}
-          {/* <a href="#" className="btn register-btn text-white">
+          <a href="#" className="btn register-btn text-white">
             Request Audit
-          </a> */}
+          </a>
 
           {/* Hamburger Menu for Mobile & Tablet */}
           <div className="hamburger d-md-none" onClick={toggleMenu}>
