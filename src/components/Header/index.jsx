@@ -19,12 +19,12 @@ function Header() {
           <nav className="desktop-nav d-none d-md-block">
             <ul className="nav">
               <li className="nav-item">
-                <a href="#home" className="nav-link text-white">
+                <a href="/Home" className="nav-link text-white">
              Services
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#about" className="nav-link text-white">
+                <a href="/portfolio" className="nav-link text-white">
                  Portfolio
                 </a>
               </li>
@@ -32,19 +32,19 @@ function Header() {
             </ul>
           </nav>
           <div className="h3 font-weight-bold logo">
-            <img src={Logo} alt="" />
+          <a href="/">  <img src={Logo} alt="" /></a>
           </div>
           <nav className="desktop-nav d-none d-md-block">
             <ul className="nav">
       
            
               <li className="nav-item">
-                <a href="#services" className="nav-link text-white">
+                <a href="/about-us" className="nav-link text-white">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="nav-link text-white">
+                <a href="" className="nav-link text-white">
              BLog
                 </a>
               </li>
