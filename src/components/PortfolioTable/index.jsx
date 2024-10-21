@@ -25,7 +25,7 @@ const portfolioData = [
   { id: 9, name: vanar, nameString: 'Vanar', platform: 'FANTOM', auditDate: '2021-11-08', errors: 'ARBITRUM', status: 'Progress' },
   { id: 10, name: supere, nameString: 'SuperE', platform: 'FANTOM', auditDate: '2021-11-08', errors: 'ARBITRUM', status: 'Progress' },
   { id: 11, name: poly, nameString: 'Poly', platform: 'FANTOM', auditDate: '2021-11-08', errors: 'ARBITRUM', status: 'Progress' },
-  { id: 12, name: retreeb, nameString: 'Retreeb', platform: 'FANTOM', auditDate: '2021-11-08', errors: 'ARBITRUM', status: 'Progress' },
+  { id: 12, name: retreeb, nameString: 'Retreeb', platform: 'FANTOM', auditDate: '2021-11-08', errors: 'ARBITRUM', status: 'Progress', description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." },
 ];
 
 const PortfolioTable = () => {
