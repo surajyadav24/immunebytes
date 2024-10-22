@@ -9,6 +9,10 @@ const auditData = {
       { severity: 'High', errorMsg: 'Lorem Ipsum is simply dummy', status: 'Fixed' },
       { severity: 'Medium', errorMsg: 'Lorem Ipsum is simply dummy', status: 'Open' },
       { severity: 'Critical', errorMsg: 'Lorem Ipsum is simply dummy', status: 'Acknowledged' },
+      { severity: 'Medium', errorMsg: 'Lorem Ipsum is simply dummy', status: 'Redacted' },
+      { severity: 'Informational', errorMsg: 'Lorem Ipsum is simply dummy', status: 'Fixed' },
+      { severity: 'High', errorMsg: 'Lorem Ipsum is simply dummy', status: 'Open' },
+      { severity: 'Critical', errorMsg: 'Lorem Ipsum is simply dummy', status: 'Fixed' },
     ],
     progress: {
       final: 30,
