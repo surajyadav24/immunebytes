@@ -117,6 +117,7 @@ const Home = () => {
 
       {/* <h1>Water Grid Simulation</h1>
       <BackgroundAnim /> */}
+
       <Community />
       <Footer />
     </>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from '../../assets/images/logos/Logo.svg'
-
+import Formpopup from '../Formpopup'
 function Header() {
   const [isOpen, setIsOpen] = useState(false); // State to track menu open/close
 
@@ -47,9 +47,7 @@ function Header() {
           </nav>
 
           {/* "Request Audit" Button Always Visible */}
-          <a href="#" className="btn register-btn text-white">
-            Request Audit
-          </a>
+          <Formpopup/>
 
           {/* Hamburger Menu for Mobile & Tablet */}
           <div className="hamburger d-md-none" onClick={toggleMenu}>

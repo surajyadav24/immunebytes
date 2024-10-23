@@ -161,4 +161,50 @@ input[type="text"]:focus-visible {
    
     cursor: not-allowed;
   }
-  
+  /* Add headers for mobile view */
+@media (max-width: 768px) {
+  .portfolio-grid-row {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio-grid-row div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    width: 300px;
+}
+  .portfolio-grid-row div::before {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .portfolio-grid-row div:nth-child(1)::before {
+    content: "Image";
+  }
+
+  .portfolio-grid-row div:nth-child(2)::before {
+    content: "Platform";
+  }
+
+  .portfolio-grid-row div:nth-child(3)::before {
+    content: "Audit Date";
+  }
+
+  .portfolio-grid-row div:nth-child(4)::before {
+    content: "Errors";
+  }
+
+  .portfolio-grid-row div:nth-child(5)::before {
+    content: "Status";
+  }
+
+  .portfolio-grid-row div:nth-child(6)::before {
+    content: "Report";
+  }
+  .portfolio-grid-header {
+    display: none;
+}
+}

@@ -12,13 +12,16 @@ ul.flex.space-x-4.justify-center.items-center {
   display: flex;
   gap: 50px;
 }
-
-a.register-btn:hover {
+.h3.font-weight-bold.logo {
+  max-width: 200px;
+}
+.register-btn:hover {
   background: #ffd5a7;
-  color: #f9116c;
+  color: #f9116c !important;
 }
 
-a.register-btn {
+.register-btn {
+
   border-radius: 10px;
   color: #f9116c !important;
   text-align: center;
@@ -26,8 +29,8 @@ a.register-btn {
   font-size: 19px;
   font-weight: 700;
   padding: 12px 35px;
-  background: #ffd5a7;
-  font-family: "Arame-Thin";
+  background: #ffd5a7 !important;
+  font-family: "Arame-Bold" !important; 
   padding-top: 5px ;
 
 }

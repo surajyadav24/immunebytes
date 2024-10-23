@@ -38,6 +38,7 @@
   cursor: pointer;
   border-radius: 50%;
   width: 30px;
+  z-index: 9999;
 }
 
 .modal-left {
