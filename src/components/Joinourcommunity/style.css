@@ -53,8 +53,9 @@ text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Arame-Bold";
-    font-size: 80px;
+    font-size: 60px;
     font-style: normal;
+    text-align: center;
     font-weight: 700;
     line-height: 101.329%;
 }
