@@ -30,7 +30,7 @@ const Home = () => {
         <PrimaryBtn text="Book Consultation" />
       </div>
       <LogoSlider />
-      <Cta />
+      <Cta title="Leading the Wave of Web3 Security" />
       <div className="services-wrapper">
         <h1 className="text-center py-5  pb-5 heading-h1">Our Services</h1>
         <Servicescomponent
