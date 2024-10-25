@@ -38,16 +38,20 @@ const Home = () => {
           heading="Smart Contract Audit"
           paragraphtext="An extensive evaluation of your smart contract code’s security, business functionality, and adherence to industry standards."
         />
-        <Servicescomponent
+<div className="service-2">
+<Servicescomponent
           imageSrc={serviceimg3}
           heading="Blockchain Security Service"
           paragraphtext="A thorough assessment of your blockchain’s security posture, encompassing smart contracts, architecture, and development framework."
         />
-        <Servicescomponent
+</div>
+<div className="service-3">
+<Servicescomponent
           imageSrc={serviceimg2}
           heading="Penetration Testing"
           paragraphtext="In light of increasing traditional security breaches impacting Web3, ImmuneBytes offers penetration testing for decentralized applications."
         />
+</div>
       </div>
       <h1 className="text-center py-5  pb-4 heading-h1">Audit Process</h1>
       <AuditProcess />
