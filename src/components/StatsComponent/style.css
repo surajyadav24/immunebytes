@@ -57,7 +57,7 @@ padding: 50px 0px;
   }
   .red-border {
     background: url(../../assets/images/portfolio/red-card.svg) no-repeat center center / contain;
-    max-width: 370px;
+    max-width: 427px;
   }
   .red-border:hover {
     background: url(../../assets/images/portfolio/hover-red.svg) no-repeat center center / contain;
