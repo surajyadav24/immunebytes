@@ -21,7 +21,20 @@
     font-weight: 700;
     line-height: normal;
   }
-  
+  .stat-card:hover h2{
+    color: #000 !important;
+    background: transparent;
+    -webkit-text-fill-color:#000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+  }
+  .stat-card:hover p{
+    color: #000 !important;
+    background: transparent;
+    -webkit-text-fill-color:#000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+  }
   .stat-card p {
     -webkit-text-fill-color: rgba( 255, 255, 255, 0 );
     -webkit-text-stroke-width: 2px;

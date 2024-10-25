@@ -12,8 +12,9 @@ function Portfolio() {
 <AuditSection/>
 <PortfolioTable/>
 <div className="por-cta">
-<Ctacomponents title="Leading the Wave of Web3 Security"/>
 <StatsSection/>
+<Ctacomponents title="Leading the Wave of Web3 Security"/>
+
 </div>
 </>
   )

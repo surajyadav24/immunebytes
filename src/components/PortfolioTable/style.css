@@ -4,8 +4,8 @@
     background: url(../../assets/images/portfolio/portfoliocontainer.svg) no-repeat center center/contain ;
     color: #fff;
     border-radius: 10px;
-    min-height: 700px;
-    max-width: 1200px;
+    min-height: 800px;
+    max-width: 1320px;
     margin: 0 auto;
   }
   
@@ -169,7 +169,14 @@ input[type="text"]:focus-visible {
     padding-bottom: 13px;
     margin-bottom: 20px;
 }
-
+.container.stats-container {
+  padding: 50px 0px;
+}
+@media (min-width: 1320px) and (max-width: 1366px) {
+  .portfolio-table-container {
+    min-height: 700px !important;
+  }
+}
   /* Add headers for mobile view */
 @media (max-width: 768px) {
   .portfolio-grid-row {
