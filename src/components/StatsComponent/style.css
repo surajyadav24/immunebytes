@@ -1,0 +1,58 @@
+
+  
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    position: relative;
+    text-align: center;
+  }
+  
+  .stat-card h2 {
+    -webkit-text-fill-color: rgba( 255, 255, 255, 0 );
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4f4f4f;
+    font-family: "RobotoMono-Bold";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .stat-card p {
+    -webkit-text-fill-color: rgba( 255, 255, 255, 0 );
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4f4f4f;
+    font-family: "RobotoMono-Bold";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .yellow-border {
+background: url(../../assets/images/portfolio/card-green.svg) no-repeat center center / contain;
+padding: 50px 0px;
+
+  }
+  .yellow-border:hover{
+    background: url(../../assets/images/portfolio/hover-yellow.svg) no-repeat center center / contain;
+    color: #000;
+  }
+  .red-border {
+    background: url(../../assets/images/portfolio/red-card.svg) no-repeat center center / contain;
+    max-width: 370px;
+  }
+  .red-border:hover {
+    background: url(../../assets/images/portfolio/hover-red.svg) no-repeat center center / contain;
+  }
+  .green-border {
+    background: url(../../assets/images/portfolio/green-card-2.svg) no-repeat center center / contain;
+  }
+  .green-border:hover{
+    background: url(../../assets/images/portfolio/hover-green.svg) no-repeat center center / contain;
+  }
+  

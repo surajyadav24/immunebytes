@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DoughnutChart from '../Doughnutchart'; // Import the DoughnutChart component
 import './style.css';
-
+import close from '../../assets/images/portfolio/close-btn.svg'
 // Data for multiple months
 const auditData = {
   January: {
@@ -61,7 +61,7 @@ const PortfolioModal = ({ item, closeModal }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
-        <button className="close-btn" onClick={closeModal}>X</button>
+        <button className="close-btn" onClick={closeModal}><img src={close} alt="" /></button>
         <div className="modal-left">
           <div className="company-info">
             <div className="company-logo">

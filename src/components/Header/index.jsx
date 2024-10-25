@@ -63,24 +63,24 @@ function Header() {
         {isOpen && (
           <nav className="mobile-nav d-md-none">
             <ul className="nav flex-column">
-              <li className="nav-item">
-                <a href="#home" className="nav-link text-white">
-                  Home
+            <li className="nav-item">
+                <a href="/Home" className="nav-link text-white">
+             Services
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#about" className="nav-link text-white">
-                  Portfolio
+                <a href="/portfolio" className="nav-link text-white">
+                 Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#services" className="nav-link text-white">
+                <a href="/about-us" className="nav-link text-white">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="nav-link text-white">
-             Blog
+                <a href="" className="nav-link text-white">
+             BLog
                 </a>
               </li>
               <li className="nav-item">

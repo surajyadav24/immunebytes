@@ -90,8 +90,9 @@ const PortfolioTable = () => {
 
   return (
     <div className="container">
+              <h2 className="portfolio-title">Our Portfolio</h2>
       <div className="portfolio-table-container">
-        <h2 className="portfolio-title">Our Portfolio</h2>
+
         <div className="search-bar">
           <input
             type="text"

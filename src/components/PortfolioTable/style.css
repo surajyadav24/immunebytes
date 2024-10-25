@@ -5,6 +5,8 @@
     color: #fff;
     border-radius: 10px;
     min-height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   .portfolio-title {
@@ -161,6 +163,13 @@ input[type="text"]:focus-visible {
    
     cursor: not-allowed;
   }
+
+  .portfolio-grid-header {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+}
+
   /* Add headers for mobile view */
 @media (max-width: 768px) {
   .portfolio-grid-row {

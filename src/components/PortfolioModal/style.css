@@ -25,6 +25,10 @@
   position: relative;
   flex-direction: row;
 }
+button.close-btn img {
+  margin-top: -5px;
+  margin-left: -1px;
+}
 
 .close-btn {
   height: 30px;

@@ -1,5 +1,5 @@
 .cta-wrapper h2{
-    background: linear-gradient(272deg, #F96746 3.28%, #FFE500 56.57%, #C800C0 96.67%);
+background: linear-gradient(272deg, #F96746 3.28%, #FFE500 56.57%, #C800C0 96.67%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -11,6 +11,7 @@ line-height: 101.329%; /* 112.475px */
 text-align: center;
 margin-bottom: 0px;
 }
+
 .cta-wrapper{
     margin: 40px 0px;
     padding: 80px 20px;
