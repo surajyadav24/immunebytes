@@ -275,5 +275,7 @@ button.btn.btn-primary span {
 a.btn.register-btn.mobile-btn.text-white{
   margin-left: 0px;
 }
-
+.desktop-btn-request button.open-popup-btn.btn.register-btn.text-white {
+  display: none;
+}
 }

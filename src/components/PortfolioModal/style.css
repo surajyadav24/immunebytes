@@ -253,9 +253,35 @@ select#month-select option {
     width: 100%;
     padding: 0;
     border: none;
+    background: none;
   }
 
   .modal-right {
     margin-top: 20px;
   }
+  .company-info{
+    background: none;
+  }
+  .error-msg {
+    font-size: 10px;
+    width: 50%;
+}
+.error-row {
+  font-size: 11px;
+}
+.modal-actions {
+  position: relative;
+  left: 0px;
+}
+.request-btn, .download-btn{
+  font-size: 12px;
+  padding: 7px 20px;
+}
+.company-description P {
+  font-size: 11px;
+}
+.modal-overlay {
+  position: absolute;
+  top: 500px;
+}
 }

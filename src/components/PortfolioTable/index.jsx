@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import PortfolioModal from '../PortfolioModal'; // Modal component for popup
 import './style.css'; // Add custom styles for div layout
 import forward from '../../assets/images/portfolio/forward.svg';
@@ -31,7 +31,7 @@ const portfolioData = [
 const PortfolioTable = () => {
   const [search, setSearch] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(9);
+  const [itemsPerPage,setItemsPerPage] = useState(9);
   const [selectedItem, setSelectedItem] = useState(null);
 
   // Filter portfolio data based on search input
@@ -39,6 +39,24 @@ const PortfolioTable = () => {
     item.nameString.toLowerCase().includes(search.toLowerCase())
   );
 
+
+  useEffect(() => {
+    const updateItemsPerPage = () => {
+      const isMobile = window.innerWidth <= 768; // Adjust the breakpoint as needed
+      setItemsPerPage(isMobile ? 2 : 9);
+    };
+
+    // Set initial value
+    updateItemsPerPage();
+
+    // Add event listener to update on window resize
+    window.addEventListener("resize", updateItemsPerPage);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", updateItemsPerPage);
+    };
+  }, []);
   // Get current items for pagination
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;

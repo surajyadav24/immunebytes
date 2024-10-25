@@ -47,7 +47,9 @@ function Header() {
           </nav>
 
           {/* "Request Audit" Button Always Visible */}
-          <Formpopup/>
+       <div className="desktop-btn-request">
+       <Formpopup/>
+       </div>
 
           {/* Hamburger Menu for Mobile & Tablet */}
           <div className="hamburger d-md-none" onClick={toggleMenu}>
@@ -80,6 +82,9 @@ function Header() {
                 <a href="#contact" className="nav-link text-white">
              Blog
                 </a>
+              </li>
+              <li className="nav-item">
+              <Formpopup/>
               </li>
             </ul>
           </nav>

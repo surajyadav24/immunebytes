@@ -104,8 +104,17 @@ button.close-popup-btn img {
         margin-bottom: 13px;
     }
     .form-group .input-block {
-
         width: 100%;
-
+    }
+    .popup-form {
+        background: #000;
+    }
+    .popup-overlay {
+        position: absolute;
+        top: 250px;
+    }
+    .close-popup-btn{
+        top: 7px;
+        right: 6px;
     }
   }
