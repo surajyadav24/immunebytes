@@ -88,6 +88,15 @@ button.twit-x img {
   line-height: 24px;
   font-family: 'RobotoMono-Regular' !important;
 }
+
+@media (max-width:768px) {
+  .container, .container-sm {
+    max-width: 700px;
+}
+.register-btn{
+  margin-top: 0px;
+}
+}
 @media (max-width:425px) {
   h1.text-center.py-5.pb-4.heading-h1 {
     padding-top: 0px !important;
