@@ -294,4 +294,7 @@ a.btn.register-btn.mobile-btn.text-white{
 .desktop-btn-request button.open-popup-btn.btn.register-btn.text-white {
   display: none;
 }
+.mobile-nav ul .nav-item:last-child {
+  display: inline-block;
+  }
 }
