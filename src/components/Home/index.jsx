@@ -11,7 +11,6 @@ import LogoSlider from "../Logo-Slider";
 import AuditProcess from "../Audit-Process";
 import Whychooseusec from "../WhychooseusSec";
 import CaseStudyCard from "../Case-study";
-import BackgroundAnim from "../Bg-components";
 import Community from "../Joinourcommunity";
 import Footer from "../Footer";
 // Import images
@@ -119,8 +118,6 @@ const Home = () => {
 
 </div>
 
-      {/* <h1>Water Grid Simulation</h1>
-      <BackgroundAnim /> */}
 
       <Community />
       <Footer />

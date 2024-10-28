@@ -9,6 +9,7 @@
     border: 2px solid transparent;
     position: relative;
     text-align: center;
+    min-width: 250px !important;
   }
   
   .stat-card h2 {
