@@ -30,7 +30,6 @@ Join Telegram</a></button>
 <div className="secure-audit">
 <h2>
 Stay Ahead of the Security Curve.
-
 </h2>
 </div>
 

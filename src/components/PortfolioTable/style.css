@@ -231,6 +231,130 @@ input[type="text"]:focus-visible {
 }
 .audit-content{
   gap: 15px 0px;
+  flex-direction: row;
+  align-items: center;
+}
+.audit-details{
+  min-height: auto;
+  width: 49%;
+  padding: 15px 20px;
+    
+}
+.audit-details p {
+  font-size: 12px;
+  color: #ccc;
+  margin-bottom: 8px;
+  line-height: 15px;
+}
+.audit-details h3 {
+  font-size: 17px;
+  margin-bottom: 2px;
+}
+.audit-progress {
+  min-height: 152px;
+  width: 49%;
+  padding: 5px 7px;
+}
+.progress-bar {
+  padding-left: 4px;
+  margin-bottom: 0px;
+
+}
+.contact-btn {
+  padding: 5px 20px;
+}
+.audit-progress .progress-bar::before {
+  left: 4px;
+}
+.audit-progress h4 {
+  padding-left: 3px;
+  font-size: 15px;
+  margin-bottom: 7px;
+  margin-top: 4px;
+}
+.audit-section-title {
+  text-align: left;
+  font-size: 22px;
+  
+}
+.audit-content {
+  padding-top: 10px;
+}
+.portfolio-table-container {
+  background: none !important;
+  padding: 10px 0px;
+  width: 100%;
+}
+.portfolio-grid-row {
+width: 100%;
+}
+.progress-bar-label span {
+  font-size: 12px;
+}
+.portfolio-grid-row div:nth-child(1){
+  flex-direction: row-reverse;
+}
+.progress-bar>span {
+  font-size: 12px;
+  width: 50px;
+}
+.portfolio-grid {
+  grid-template-columns: repeat(3, 1fr); /* Show 3 items in mobile view */
+}
+}
+@media (max-width: 425px) {
+  .portfolio-grid-row {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .portfolio-grid-row div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+  .portfolio-grid-row div::before {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .portfolio-grid-row div:nth-child(1)::before {
+    content: "Name";
+  }
+
+  .portfolio-grid-row div:nth-child(2)::before {
+    content: "Platform";
+  }
+
+  .portfolio-grid-row div:nth-child(3)::before {
+    content: "Audit Date";
+  }
+
+  .portfolio-grid-row div:nth-child(4)::before {
+    content: "Errors";
+  }
+
+  .portfolio-grid-row div:nth-child(5)::before {
+    content: "Status";
+  }
+
+  .portfolio-grid-row div:nth-child(6)::before {
+    content: "Report";
+  }
+  .portfolio-grid-header {
+    display: none;
+}
+.audit-section-description {
+  max-width: 100%;
+  margin-bottom: 40px;
+  font-size: 13px;
+  text-align: left;
+}
+.audit-content{
+  gap: 15px 0px;
   flex-direction: column;
 }
 .audit-details{

@@ -98,6 +98,27 @@ button.close-popup-btn img {
     top: -9px;
     right: -11px;
 }
+  @media (max-width:768px) {
+    .form-group {
+        flex-direction: column;
+        margin-bottom: 13px;
+    }
+    .form-group .input-block {
+      margin-bottom: 15px;
+      width: 100%;
+  }
+    .popup-form {
+        background: #000;
+    }
+    .popup-overlay {
+        position: absolute;
+        top: 250px;
+    }
+    .close-popup-btn{
+        top: 7px;
+        right: 6px;
+    }
+  }
   @media (max-width:430px) {
     .form-group {
         flex-direction: column;

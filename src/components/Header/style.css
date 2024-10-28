@@ -22,7 +22,6 @@ ul.flex.space-x-4.justify-center.items-center {
 }
 
 .register-btn {
-
   border-radius: 10px;
   color: #f9116c !important;
   text-align: center;
@@ -102,7 +101,9 @@ a.btn.register-btn.d-none.d-md-inline-block {
 .h3.font-weight-bold.logo img {
   max-width: 249px;
 }
-
+button.open-popup-btn.btn.register-btn.text-white {
+  color: #ff004c !important;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   header .container {
@@ -134,8 +135,22 @@ a.btn.register-btn.d-none.d-md-inline-block {
     width: 100%;
     text-align: center;
   }
+  .desktop-btn-request {
+    float: right;
+    margin-right: -233px;
 }
-
+li.nav-item {
+  max-width: 238px;
+}
+ul.nav.flex-column{
+  justify-content: center;
+  flex-direction: column !important;
+  align-items: center;
+}
+.mobile-nav ul .nav-item:last-child {
+display: none;
+}
+}
 @media (max-width: 576px) {
   .h3 {
     font-size: 1.2rem;

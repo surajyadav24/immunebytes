@@ -69,3 +69,64 @@ padding: 37px 0px;
     background: url(../../assets/images/portfolio/hover-green.svg) no-repeat center center / contain;
   }
   
+  @media (max-width:768px) {
+    .stat-card {
+        min-height: 250px;
+        margin: 20px 0px;
+    }
+    .red-border {
+        background: url(../../assets/images/portfolio/hover-red.svg) no-repeat center center / contain;
+      }
+      .green-border{
+        background: url(../../assets/images/portfolio/hover-green.svg) no-repeat center center / contain;
+      }
+
+      .secure-audit h2 {
+        font-size: 50px;
+      }
+      .yellow-border{
+        background: url(../../assets/images/portfolio/hover-yellow.svg) no-repeat center center / contain;
+        color: #000;
+      }
+      .stat-card p, .stat-card h2{
+        color: #000 !important;
+        background: transparent;
+        -webkit-text-fill-color:#000;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #000;
+      }
+      .container.stats-container .row {
+        justify-content: center !important;
+    }
+
+  }
+  @media (max-width:425px) {
+    .stat-card {
+        min-height: 230px;
+        margin: 10px 0px;
+    }
+    .container.stats-container {
+        padding: 0px 10px;
+    }
+    .red-border {
+        background: url(../../assets/images/portfolio/hover-red.svg) no-repeat center center / contain;
+      }
+      .green-border{
+        background: url(../../assets/images/portfolio/hover-green.svg) no-repeat center center / contain;
+      }
+
+      .secure-audit h2 {
+        font-size: 30px;
+      }
+      .yellow-border{
+        background: url(../../assets/images/portfolio/hover-yellow.svg) no-repeat center center / contain;
+        color: #000;
+      }
+      .stat-card p, .stat-card h2{
+        color: #000 !important;
+        background: transparent;
+        -webkit-text-fill-color:#000;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #000;
+      }
+  }

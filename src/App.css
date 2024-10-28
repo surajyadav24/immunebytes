@@ -95,7 +95,9 @@ button.twit-x img {
 }
 .register-btn{
   margin-top: 0px;
+  color: #f9116c !important;
 }
+
 }
 @media (max-width:425px) {
   h1.text-center.py-5.pb-4.heading-h1 {
