@@ -99,7 +99,14 @@ padding: 37px 0px;
       .container.stats-container .row {
         justify-content: center !important;
     }
-
+    .stat-card {.service-2 .right-serv::after {
+      content: url(http://localhost:3002/static/media/second-audit.144aca7….svg);
+      left: 192px;
+      top: -137px !important;
+      transform: scale(0.5) !important;
+  }
+      min-width: 353px !important;
+  }
   }
   @media (max-width:425px) {
     .stat-card {

@@ -110,8 +110,68 @@
             align-items: center;
             flex-wrap: wrap;
         }
+        .services-wrapper h1.text-center.py-5.pb-4.heading-h1 {
+            padding-bottom: 30px !important;
+        }
     }
 
+    @media (max-width: 768px) {
+        .first-audit {
+            max-width: 654px;
+            gap: 32px 35px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .first-audit .item {
+            max-width: 142px;
+            position: relative !important;
+        }
+        .first-audit .item:nth-child(4) {
+            margin-left: 125px;
+        }
+        .first-audit .item:nth-child(1)::after {
+            top: -132px;
+            left: -34px;
+            transform: scale(0.5);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(2)::after {
+            top: -125px;
+            left: -34px;
+            transform: scale(0.5);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(3)::after {
+            top: -125px;
+            left: -34px;
+            transform: scale(0.5);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(4)::after {
+            top: -125px;
+            left: -34px;
+            transform: scale(0.5);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(5)::after {
+            top: -125px;
+            left: -34px;
+            transform: scale(0.5);
+            opacity: 1;
+        }
+        .first-audit .item:nth-child(6)::after {
+            top: -125px;
+            left: -34px;
+            transform: scale(0.5);
+            opacity: 1;
+        }
+        .audit-process-container {
+            padding-top: 7px;
+        }
+        
+    }
     @media (max-width: 425px) {
         .first-audit {
             gap: 35px 24px;

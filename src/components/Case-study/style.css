@@ -143,6 +143,30 @@ border: none;
 }
 
 }
+@media (max-width:768px) {
+  .right-serv::after {
+    content: url('../../assets/images/first-audit.svg');
+    position: absolute;
+    top: -135px !important;
+    left: 218px;
+    right: 0;
+    transform: scale(0.4) !important;
+    transition: opacity 0.3s ease-out, top 1s ease-out;
+    opacity: 1 !important;
+}
+
+  .service-2 .right-serv::after {
+    left: 192px;
+    top: -137px !important; 
+    transform: scale(0.5) !important;
+}
+
+.service-3 .right-serv::after {
+  left: 192px;
+  top: -99px !important;
+  transform: scale(0.5) !important;
+}
+}
 
 @media (max-width:425px) {
   .card-title {
